@@ -5,9 +5,9 @@ var store = [{
         "url": "https://gminer.info/documentation/setup/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },{
-        "title": "Download NBMiner  37.5 - AMD GPU Miner [2021]",
-        "excerpt":" Get started with NBMiner  \t\t \t\t\t \t\tVersion: 37.5  \t\tFile: *NBMiner.exe,    \t\tSHA256: e8e775add50c67e1c6f6ca20db318f745e22b085afcbdf5634015e6ef91e8853  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new NBMiner stale version is ready.   You can download NBMiner 37.5 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        ","categories": ["download"],
-        "tags": ["NBMiner"],
-        "url": "https://gminer.info/download/37.5/",
+        "title": "Download GMiner  2.54 - AMD GPU Miner [2021]",
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.54  \t\tFile: *gminer.exe,    \t\tSHA256: 612a490da78c2395afea9cde3592361524308fe71a6194bb1f901e212ac05b08  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stale version is ready.   You can download GMiner 2.54 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.54/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
