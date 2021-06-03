@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://teamredminer.info/sitemap_index.xml
