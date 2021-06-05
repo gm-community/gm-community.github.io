@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://gminer.info/ru/articles/clear-06-05/</loc>
+    
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://gminer.info/ru/articles/search-06-04/</loc>
     
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
@@ -71,7 +80,7 @@
   <url>
     <loc>https://gminer.info/ru/about/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -83,7 +92,7 @@
   <url>
     <loc>https://gminer.info/ru/cookie/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -95,7 +104,7 @@
   <url>
     <loc>https://gminer.info/ru/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -119,7 +128,7 @@
   <url>
     <loc>https://gminer.info/ru/privacy/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -133,7 +142,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -145,7 +154,7 @@
   <url>
     <loc>https://gminer.info/ru/blog/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -157,7 +166,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -169,7 +178,7 @@
   <url>
     <loc>https://gminer.info/ru/download/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -181,7 +190,7 @@
   <url>
     <loc>https://gminer.info/ru/video/</loc>
       
-        <lastmod>2021-06-05T07:53:08+00:00</lastmod>
+        <lastmod>2021-06-05T19:48:45+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
