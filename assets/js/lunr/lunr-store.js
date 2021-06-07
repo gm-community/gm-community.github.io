@@ -22,4 +22,10 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.54/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Download GMiner  2.55 - AMD+NVIDIA GPU Miner [2021]",
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.55  \t\tFile: *gminer.exe,    \t\tSHA256: 936d3d5246c6b20454f1e9794e775c8805ce75bbe097509782d1c73390b1b53b  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stale version is ready.   You can download GMiner 2.55 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      lock core clock feature for Nvidia GPUs under Windows and Linux (--lock_cclock)   resolve domain names even with broken system DNS settings   support SOCKS5 proxy (--proxy host:port)  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.55/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
