@@ -18,14 +18,20 @@ var store = [{
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },{
         "title": "Download GMiner  2.54 - AMD GPU Miner [2021]",
-        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.54  \t\tFile: *gminer.exe,    \t\tSHA256: 612a490da78c2395afea9cde3592361524308fe71a6194bb1f901e212ac05b08  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stale version is ready.   You can download GMiner 2.54 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        ","categories": ["download"],
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.54  \t\tFile: *gminer.exe,    \t\tSHA256: 612a490da78c2395afea9cde3592361524308fe71a6194bb1f901e212ac05b08  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stable version is ready.   You can download GMiner 2.54 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        ","categories": ["download"],
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.54/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },{
         "title": "Download GMiner  2.55 - AMD+NVIDIA GPU Miner [2021]",
-        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.55  \t\tFile: *gminer.exe,    \t\tSHA256: 936d3d5246c6b20454f1e9794e775c8805ce75bbe097509782d1c73390b1b53b  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stale version is ready.   You can download GMiner 2.55 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      lock core clock feature for Nvidia GPUs under Windows and Linux (--lock_cclock)   resolve domain names even with broken system DNS settings   support SOCKS5 proxy (--proxy host:port)  ","categories": ["download"],
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.55  \t\tFile: *gminer.exe,    \t\tSHA256: 936d3d5246c6b20454f1e9794e775c8805ce75bbe097509782d1c73390b1b53b  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stable version is ready.   You can download GMiner 2.55 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      lock core clock feature for Nvidia GPUs under Windows and Linux (--lock_cclock)   resolve domain names even with broken system DNS settings   support SOCKS5 proxy (--proxy host:port)  ","categories": ["download"],
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.55/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Download GMiner  2.56 - AMD+NVIDIA GPU Miner [2021]",
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.56  \t\tFile: *gminer.exe,    \t\tSHA256: a243d233b1f47e8f3e356b27affccb16b0ef0fc6d84176b0493e1823782b1b93  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stable version is ready.   You can download GMiner 2.56 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      display memory temperature for Nvidia cards under Windows (if GPU support it)   display memory temperature for AMD cards Windows and Linux (if GPU support it)   removed cuckatoo31/cuckatoo32 algorithms  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.56/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]

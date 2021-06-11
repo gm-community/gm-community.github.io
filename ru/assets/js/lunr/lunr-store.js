@@ -52,4 +52,34 @@ var store = [{
         "tags": [],
         "url": "https://gminer.info/ru/articles/trezor-06-07/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 06 08",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-06-08/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 06 09",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-06-09/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 06 10",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-06-10/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 06 11",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-06-11/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать GMiner  2.56 - NVIDIA+AMD GPU Майнер [2021]",
+        "excerpt":" Начните добывать криптовалюту   с помощью GMiner  \t\t \t\t\t \t\tВерсия: 2.56  \t\tФайл: *gminer.exe,   \t\tSHA256: a243d233b1f47e8f3e356b27affccb16b0ef0fc6d84176b0493e1823782b1b93  \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас(Windows x64) \t\t \t\t(зеркало) \t\t \t     Готова новая стабильная версия GMiner.   Скачайте GMiner 2.56 отсюда:   Скачать Сейчас   Скачать (зеркало)   Внутри архива вы найдете файл README.txt с инструкциями по установке.   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Журнал изменений      отображается температура памяти для карт Nvidia под Windows (если это поддерживает GPU)   отображается температура памяти для карт AMD Windows и Linux (если это поддерживает GPU)   убраны алгоритмы cuckatoo31 / cuckatoo32  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.56/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
