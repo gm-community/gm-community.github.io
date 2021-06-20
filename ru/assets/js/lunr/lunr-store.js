@@ -88,4 +88,10 @@ var store = [{
         "tags": [],
         "url": "https://gminer.info/ru/articles/knr-06-18/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Портфель Криптовалют на Июль и на Весь 2021 Год",
+        "excerpt":"   Крупнейший криптофонд в мире Grayscale Investments  рассматривает возможность добавления 31 криптовалюты в своё семейство инвестиционных продуктов. Компания, имеющая под управлением криптоактивы на сумму 32,9 миллиарда долларов, в настоящее время предлагает инвестиции в 13 криптовалют.   И теперь Grayscale Investments объявила о добавлении ещё 13 дополнительных криптовалют. Это 1inch (1INCH), bancor (BNT), curve (CRV), internet computer (ICP), kava (KAVA), kyber network (KNC), loopring (LRC), near (NEAR), polygon (MATIC), ren (REN), solana (SOL), universal market access (UMA) и 0x (ZRX).   На рассмотрении сейчас находится ещё несколько: aave (AAVE), cardano (ADA), compound (COMP), cosmos (ATOM), eos (EOS), flow (dapper labs) (FLOW), makerdao (MKR), monero (XMR), numeraire (NMR), polkadot (DOT), reserve rights (RSR), stacks (STX), sushiswap (SUSHI), synthetix (SNX), tezos (XTZ), the graph (GRT), uniswap (UNI), and yearn finance (YFI).   Портфель альткоинов   Один из самых частых вопросов по составлению диверсифицированного портфеля альткоинов - выбор наиболее надежных из них. Стоит воспользоваться опытом и экспертизой крупнейшего в мире криптофнда. Если конечно ваша задача не состоит в том, чтобы поймать новый DOGE или SHIB в расчёте на двузначные иксы доходов. Эта стратегия чревата иксами потерь.   По состоянию на 18 июня чистые активы Grayscale под управлением составляют $32,9 млрд. Биткойн-траст компании (GBTC) имеет самый большой объем в отрасли - почти $24,12 млрд, за ним следует Ethereum Trust с объёмом более $7,13 млрд.  ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/grayscale-06-19/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
