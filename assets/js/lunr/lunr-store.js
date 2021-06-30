@@ -34,4 +34,10 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.56/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Download GMiner  2.58 - AMD+NVIDIA GPU Miner [2021]",
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.58  \t\tFile: *gminer.exe,    \t\tSHA256: db9081eeb4a7e0808deff181cd27f8ae37cbc62af59c5781188639d2426a1e2e  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stable version is ready.   You can download GMiner 2.58 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      added display of pool hashrate estimated by accepted shares   fixed freezing on DAG generation on AMD GPUs on some drivers   support latest AMD drivers  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.58/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
