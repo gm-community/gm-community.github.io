@@ -106,4 +106,130 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.58/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 01",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-01/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 02",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-02/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 03",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-03/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 04",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-04/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 05",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-05/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 06",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-06/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 07",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-07/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 08",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-08/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 09",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-09/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 10",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-10/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 11",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-11/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 12",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-12/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 13",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-13/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 14",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-14/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 15",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-15/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 16",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-16/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 17",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-17/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 18",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-18/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 19",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-19/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 20",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-20/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать GMiner  2.61 - NVIDIA+AMD GPU Майнер [2021]",
+        "excerpt":" Начните добывать криптовалюту   с помощью GMiner  \t\t \t\t\t \t\tВерсия: 2.61  \t\tФайл: *gminer.exe,   \t\tSHA256: 0686a91a743993c5674db7b3743304b3fb8b344bcf11f30e769328064198b460  \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас(Windows x64) \t\t \t\t(зеркало) \t\t \t     Готова новая стабильная версия GMiner.   Скачайте GMiner 2.61 отсюда:   Скачать Сейчас   Скачать (зеркало)   Внутри архива вы найдете файл README.txt с инструкциями по установке.   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Журнал изменений      конкурс, используйте GMiner и выигрывайте ETH, ознакомьтесь с правилами конкурса ниже:      необходимо использовать gminer начиная с версии 2.61 или выше   чтобы принять участие в розыгрыше необходимо запускать майнер с параметром --contest_wallet ETH_WALLET, соответственно указав в параметре валидный Eth кошелек (для примера: --contest_wallet 0x5218597d48333d4a70cce91e810007b37e2937b5)   условием участия в розыгрыше является использование gminer на любом алгоритме и с любой мощностью с параметром --contest_wallet не менее 72 часов   каждый риг-участник розыгрыша имеет одинаковый вес вне зависимости от мощности (от ноутбука до рига на 20 карт)   майнер каждый час непрерывной работы посылает на сервер отчет, сервер, в свою очередь, запоминает количество отработанных часов и кошелек для розыгрыша указанный в параметре --contest_wallet   идентификатором пользователя является совокупность идентификаторов оборудования, нет смысла запускать несколько копий майнера параллельно на одном риге, это не увеличивает шансы на победу   майнер, запущенный на нескольких ригах, даже с одним и тем же Eth кошельком, указанном в параметре --contest_wallet увеличивает шансы на победу пропорционально количеству ригов   сервер хранит количество отработанных часов, майнер может быть перезапущен без потери накопленного времени   в процессе работы с параметром --contest_wallet текущий прогресс выполнения условий конкурса отображается под таблицей статистики (к примеру Contest: 7/72)   для того, чтобы стать участником конкурса и выполнить необходимые условия дается отрезок времени равный неделе   по истечению времени проведения конкурса, данные о пользователях (порядковый номер, уникальный идентификатор, Eth кошелек) выполнивших все условия, выгружаются в пронумерованный список и помещаются в публичный доступ   выбирается пятерка победителей из публичного списка участников случайным образом с помощью онлайн рулетки в прямом эфире   каждому из победителей отправляется некое количество монет на Eth кошелек, указанном в параметре --contest_wallet  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.61/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
