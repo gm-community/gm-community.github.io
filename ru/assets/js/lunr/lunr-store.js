@@ -232,4 +232,22 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.61/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 21",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-21/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Clear 07 22",
+        "excerpt":"   ","categories": ["articles"],
+        "tags": [],
+        "url": "https://gminer.info/ru/articles/clear-07-22/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать GMiner  2.62 - NVIDIA+AMD GPU Майнер [2021]",
+        "excerpt":" Начните добывать криптовалюту   с помощью GMiner  \t\t \t\t\t \t\tВерсия: 2.62  \t\tФайл: *gminer.exe,   \t\tSHA256: 24310ecf93f47764d5df3b8373874dbf208f81ec6029ca98f3c13605f194bd11  \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас(Windows x64) \t\t \t\t(зеркало) \t\t \t     Готова новая стабильная версия GMiner.   Скачайте GMiner 2.62 отсюда:   Скачать Сейчас   Скачать (зеркало)   Внутри архива вы найдете файл README.txt с инструкциями по установке.   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Журнал изменений      исправлено снижение производительности графических процессоров Nvidia mining edition при использовании настроек памяти (отображается в версии 2.61, требуется перезагрузка)  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.62/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
