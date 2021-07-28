@@ -52,4 +52,10 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.62/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Download GMiner  2.63 - AMD+NVIDIA GPU Miner [2021]",
+        "excerpt":" Get started with GMiner  \t\t \t\t\t \t\tVersion: 2.63  \t\tFile: *gminer.exe,    \t\tSHA256: 2a2ba04c74d6947e2d9a6f3d2a87850ac75007436a868c5051c0ff5fd800358d  \t\t(Download for Linux)\t \t\t \t\t \t\t \t\t \t\tDownload Now (Windows x64) \t\t \t\t(mirror) \t\t \t     The new GMiner stable version is ready.   You can download GMiner 2.63 from here:   Download Now   Download (mirror)   Inside the archive you will find a file README.txt with installation instructions.   Make sure to replace the pool and wallet address by what you’re using in all files.        Changelog      fixed periodic miner restarts under Linux  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.63/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]

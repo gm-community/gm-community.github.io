@@ -118,4 +118,10 @@ var store = [{
         "tags": ["GMiner"],
         "url": "https://gminer.info/download/2.62/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Скачать GMiner  2.63 - NVIDIA+AMD GPU Майнер [2021]",
+        "excerpt":" Начните добывать криптовалюту   с помощью GMiner  \t\t \t\t\t \t\tВерсия: 2.63  \t\tФайл: *gminer.exe,   \t\tSHA256: 2a2ba04c74d6947e2d9a6f3d2a87850ac75007436a868c5051c0ff5fd800358d  \t\t(Скачать для Linux)\t \t\t \t\t \t\t \t\t \t\tСкачать сейчас(Windows x64) \t\t \t\t(зеркало) \t\t \t     Готова новая стабильная версия GMiner.   Скачайте GMiner 2.63 отсюда:   Скачать Сейчас   Скачать (зеркало)   Внутри архива вы найдете файл README.txt с инструкциями по установке.   Обязательно замените пул и адрес кошелька тем, что вы используете во всех файлах.        Журнал изменений      исправлены периодические перезапуски майнера под Linux  ","categories": ["download"],
+        "tags": ["GMiner"],
+        "url": "https://gminer.info/download/2.63/",
+        "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
       },]
