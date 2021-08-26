@@ -5,18 +5,18 @@
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
 <title>GMiner: Command Line Arguments and Options</title>
-<meta name="description" content="**">
+<meta name="description" content="All commands of the Gminer software.">
  <meta name="author" content="Gminer">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Gminer">
 <meta property="og:title" content="GMiner: Command Line Arguments and Options">
 <meta property="og:url" content="https://gminer.info/documentation/arguments/">
- <meta property="og:description" content="**">
+ <meta property="og:description" content="All commands of the Gminer software.">
  <meta property="og:image" content="https://gminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@Gminer">
  <meta name="twitter:title" content="GMiner: Command Line Arguments and Options">
- <meta name="twitter:description" content="**">
+ <meta name="twitter:description" content="All commands of the Gminer software.">
  <meta name="twitter:url" content="https://gminer.info/documentation/arguments/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://gminer.info/assets/images/site-logo.png">
@@ -35,7 +35,7 @@
  <meta name="google-site-verification" content="RJwn8zj9w_G0wBZZwbx3O4jDZfnRFGco8vtMRf3HJDs">
  <meta name="yandex-verification" content="d751c0163c5ff097">
 <!-- end _includes/seo.html -->
-<meta name="description" content="**">
+<meta name="description" content="All commands of the Gminer software.">
  <meta name="author" content="Gminer">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Gminer Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -144,7 +144,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </div>
  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
    <meta itemprop="headline" content="GMiner: Command Line Arguments and Options">
-   <meta itemprop="description" content="**">
+   <meta itemprop="description" content="All commands of the Gminer software.">
    <meta itemprop="datePublished" content="June 02, 2021">
    <meta itemprop="dateModified" content="June 02, 2021"> 
    <div class="page__inner-wrap">
@@ -152,7 +152,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 		 <h1 id="page-title" class="page__title" itemprop="headline">GMiner  - command line arguments and options
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  6 minute read
+  9 minute read
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -165,74 +165,267 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <a href="#download">Download</a>
  </li>
 <li>
-<a href="#cmd-options">CMD options：</a>
+<a href="#cmd-options">CMD options</a>
+ </li>
+<li>
+<a href="#parameters-details">Parameters details</a>
+ </li>
+<li>
+<a href="#fast-start">Fast start</a>
 </li>
 </ul>
            </nav>
          </aside>
-       <p>**
-<img srcset="/assets/images/documentation/mobile/gminer.webp 323w,              /assets/images/documentation/webp/gminer.webp 517w,              /assets/images/documentation/large/gminer.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/gminer.png" alt="GMiner" loading="lazy" decoding="async"></p>
+       <p><em>All commands of the Gminer software.</em></p>
 <h2 id="download">Download</h2>
 <p><a href="https://github.com/develsoftware/GMinerRelease/releases" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Download Now</a></p>
-<h2 id="cmd-options">CMD options：</h2>
-<p><code class="language-plaintext highlighter-rouge">--algo</code> or shortly <code class="language-plaintext highlighter-rouge">-a</code> - mining algorithm (for example: ‘ethash’, ‘kawpow’, ‘cuckatoo32’, ‘beamhash’)<br>
-<code class="language-plaintext highlighter-rouge">--list_devices</code> - list devices available for mining<br>
-<code class="language-plaintext highlighter-rouge">--server</code> or shortly <code class="language-plaintext highlighter-rouge">-s</code> - mining pool address (for example: ‘eu.btgpool.pro’, ‘eu1.zhash.pro’)<br>
-<code class="language-plaintext highlighter-rouge">--port</code> or shortly <code class="language-plaintext highlighter-rouge">-n</code> - mining pool port (for example: ‘5057’, ‘1445’)<br>
-<code class="language-plaintext highlighter-rouge">--user</code> or shortly <code class="language-plaintext highlighter-rouge">-u</code> - mining pool login or wallet address, worker’s name can be specified with a dot (for example: ‘sRuJK1BmA758GbOn.worker’, ‘GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0’)<br>
-<code class="language-plaintext highlighter-rouge">--worker</code> - worker name for Ethash strarum, for pools that does not supoort wallet.worker (for example: ‘rig0’)<br>
-<code class="language-plaintext highlighter-rouge">--pass</code> or shortly <code class="language-plaintext highlighter-rouge">-p</code> - worker password or default pool password, can be empty, default value is ‘x’ (for example: ‘sRuJK1Bm’)<br>
-<code class="language-plaintext highlighter-rouge">--ssl</code> - enable/disable secure connection with mining pool, must be supported by a pool, default value is ‘0’ (‘0’ - off or ‘1’ - on)<br>
-<code class="language-plaintext highlighter-rouge">--ssl_verification</code> - enable/disable certificates verification for secure connection, it may not work with pools that have expired certificate, default value is ‘0’ (‘0’ - off or ‘1’ - on)<br>
-<code class="language-plaintext highlighter-rouge">--proto</code> - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, default value is ‘proxy’ (for example: ‘stratum’)<br>
-<code class="language-plaintext highlighter-rouge">--dag_mode</code> - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is ‘0’ (for example: ‘2 1 0’)<br>
-<code class="language-plaintext highlighter-rouge">--dag_limit</code> - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is ‘0’ (for example: ‘4096 4096 4096’)<br>
-<code class="language-plaintext highlighter-rouge">--cache_dag</code> - enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is ‘1’ (‘0’ - off or ‘1’ - on)<br>
-<code class="language-plaintext highlighter-rouge">--devices</code> or shortly <code class="language-plaintext highlighter-rouge">-d</code> - space-separated list of cuda devices, can be empty, default value is all available devices (for example: ‘1 3 5’)<br>
-<code class="language-plaintext highlighter-rouge">--kernel</code> or shortly <code class="language-plaintext highlighter-rouge">-k</code> - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash), default value is 0 (for example: ‘1 3 5’)<br>
-<code class="language-plaintext highlighter-rouge">--mt</code> - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges, default value is 0 (for example: ‘1 3 5’)<br>
-<code class="language-plaintext highlighter-rouge">--fan</code> - space-separated list of fan speed for each device in percents (range from 0 to 100, 0 - ignore), only Windows is supported (for example: ‘60 0 90’)<br>
-<code class="language-plaintext highlighter-rouge">--pl</code> - space-separated list of power limits for each device in percents (range from 0 to 100 for Nvidia GPUs and -50 - 50 for AMD GPUs, 0 - ignore), only Windows is supported (for example: ‘30 0 50’)<br>
-<code class="language-plaintext highlighter-rouge">--cclock</code> - space-separated list of core clock offsets (for Nvidia GPUs) or absolute core clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: ‘100 0 -90’)<br>
-<code class="language-plaintext highlighter-rouge">--mclock</code> - space-separated list of memory clock offsets (for Nvidia GPUs) or absolute memory clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: ‘100 0 -90’)<br>
-<code class="language-plaintext highlighter-rouge">--cvddc</code> - space-separated list of absolute core voltages for each device in mV (0 - ignore), only Windows and AMD GPUs are supported, requires running miner with admin privileges (for example: ‘900 0 1100’)<br>
-<code class="language-plaintext highlighter-rouge">--mvddc</code> - space-separated list of absolute memory voltages for each device in mV (0 - ignore), only Windows and AMD GPUs are supported, requires running miner with admin privileges (for example: ‘900 0 1100’)<br>
-<code class="language-plaintext highlighter-rouge">--logfile</code> or shortly <code class="language-plaintext highlighter-rouge">-l</code> - filename to save logs on disk, can be empty, default value is ‘’ (for example: ‘/usr/user/miner.log’, ‘c:\miner.log’)<br>
-<code class="language-plaintext highlighter-rouge">--templimit</code> or shortly <code class="language-plaintext highlighter-rouge">-t</code> - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: ‘85 80 75’)<br>
-<code class="language-plaintext highlighter-rouge">--color</code> or shortly <code class="language-plaintext highlighter-rouge">-c</code> - enable/disable color output for console, default value is ‘1’ (‘0’ - off or ‘1’ - on)<br>
-<code class="language-plaintext highlighter-rouge">--watchdog</code> or shortly <code class="language-plaintext highlighter-rouge">-w</code> - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is ‘1’ (‘0’ - off or ‘1’ - on)<br>
-<code class="language-plaintext highlighter-rouge">--api</code> - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:<port> (for example: '10050', '20030')<br>
-```--config``` - specify configuration file<br>
-```--pers``` - personalization string for equihash algorithm (for example: 'BgoldPoW', 'BitcoinZ', 'Safecoin')<br>
-```--pec``` - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is '1' ('0' - off or '1' - on)<br>
-```--electricity_cost``` - pass cost of electricity in USD per kWh, miner will report $ spent to mining<br>
-```--intensity``` or shortly ```-i``` - space-separated list of intensities (1-100), default value is '100' (for example: '90 90 90')<br>
-```--cache_dag``` -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is '1' ('0' - off or '1' - on)<br>
-```--share_check``` -  enable/disable share check on CPU for mining Ethash, Etchash, KAWPOW and ProgPoW, default value is '1' ('0' - off or '1' - on)<br>
-```--nvml arg``` - enable/disable NVML (statistic library for CUDA devices), default value is '1' ('0' - off or '1' - on)<br>
-```--cuda arg``` - enable/disable CUDA platform, default value is '1' ('0' - off or '1' - on)<br>
-```--opencl arg``` - enable/disable OpenCL platform, default value is '1' ('0' - off or '1' - on)<br></port></p>
-<p>Parameters <code class="language-plaintext highlighter-rouge">dag_mode</code>, <code class="language-plaintext highlighter-rouge">safe_dag</code>, <code class="language-plaintext highlighter-rouge">dag_limit</code>, <code class="language-plaintext highlighter-rouge">kernel</code>, <code class="language-plaintext highlighter-rouge">mt</code>, <code class="language-plaintext highlighter-rouge">fan</code>, <code class="language-plaintext highlighter-rouge">pl</code>, <code class="language-plaintext highlighter-rouge">cclock</code>, <code class="language-plaintext highlighter-rouge">cvddc</code>, <code class="language-plaintext highlighter-rouge">mclock</code>, <code class="language-plaintext highlighter-rouge">mvddc</code>, <code class="language-plaintext highlighter-rouge">templimit</code>, intensity can be specified with one parameter for all devices:<br>
-<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 --templimit 80 --dag_mode 0</code><br>
-or for each device separately, if we have 3 devices:<br>
-<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2</code><br></p>
+<h2 id="cmd-options">CMD options</h2>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--help</code> or shortly <code class="language-plaintext highlighter-rouge">-h</code> - display available options
+ </li>
+<li>–version<code class="language-plaintext highlighter-rouge"> or shortly </code>-v` - print program version
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user_id</code> - print user ID
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--algo</code> or shortly <code class="language-plaintext highlighter-rouge">-a</code> - mining algorithm (for example: <code class="language-plaintext highlighter-rouge">ethash</code>, <code class="language-plaintext highlighter-rouge">kawpow</code>, <code class="language-plaintext highlighter-rouge">cuckatoo32</code>, <code class="language-plaintext highlighter-rouge">beamhash</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--list_devices</code> - list devices available for mining
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--contest_wallet</code> - Ethash wallet, parameter is required to participate in contest
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--server</code> or shortly <code class="language-plaintext highlighter-rouge">-s</code> - mining pool address (for example: <code class="language-plaintext highlighter-rouge">eu.btgpool.pro</code>, <code class="language-plaintext highlighter-rouge">eu1.zhash.pro</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--port</code> or shortly <code class="language-plaintext highlighter-rouge">-n</code> - mining pool port (for example: <code class="language-plaintext highlighter-rouge">5057</code>, <code class="language-plaintext highlighter-rouge">1445</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user</code> or shortly <code class="language-plaintext highlighter-rouge">-u</code> - mining pool login or wallet address, workers name can be specified with a dot (for example: <code class="language-plaintext highlighter-rouge">sRuJK1BmA758GbOn.worker</code>, <code class="language-plaintext highlighter-rouge">GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--worker</code> - worker name for Ethash strarum, for pools that does not supoort wallet.worker (for example: <code class="language-plaintext highlighter-rouge">rig0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pass</code> or shortly <code class="language-plaintext highlighter-rouge">-p</code> - worker password or default pool password, default value is <code class="language-plaintext highlighter-rouge">x</code> (for example: <code class="language-plaintext highlighter-rouge">sRuJK1Bm</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--ssl</code> - enable/disable secure connection with mining pool, must be supported by a pool, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--proxy</code> - SOCKS5 proxy server address (for example: 31.7.232.178:1080)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--proto</code> - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, default value is <code class="language-plaintext highlighter-rouge">proxy</code> (for example: <code class="language-plaintext highlighter-rouge">stratum</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--dag_mode</code> - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">2 1 0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--safe_dag</code> - space-separated list of DAG generation modes (0 - auto, 1 - fast mode, 2 - safe mode, in auto mode GTX GPUs - fast DAG and RTX GPUs - safe DAG), only Nvidia GPUs are supported, default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">2 1 0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--dag_limit</code> - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">4096 4096 4096</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cache_dag</code> -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--devices</code> or shortly <code class="language-plaintext highlighter-rouge">-d</code> - space-separated list of cuda devices, default value is all available devices (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--kernel</code> or shortly <code class="language-plaintext highlighter-rouge">-k</code> - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash) (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mt</code> - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--fan</code> - space-separated list of fan speed for each device in percents (range from 0 to 100, 0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">60 0 90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pl</code> - space-separated list of power limits for each device in percents (range from 0 to 100 for Nvidia GPUs and -50 - 50 for AMD GPUs, 0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">30 0 50</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cclock</code> - space-separated list of core clock offsets (for Nvidia GPUs) or absolute core clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">100 0 -90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mclock</code> - space-separated list of memory clock offsets (for Nvidia GPUs) or absolute memory clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">100 0 -90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cvddc</code> - space-separated list of core voltage offsets in % (for Nvidia GPUs) or absolute core voltages (for AMD GPUs) for each device in mV (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">900 0 1100</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--lock_voltage</code> - space-separated list of locked voltage points for each device in mV (0 - ignore), only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">900 0 1000</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--lock_cclock</code> - space-separated list of locked core clock point for each device in MHz (0 - ignore), only Nvidia GPUs are supported. Requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">1200 0 1500</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--p2state</code> - enable/disable P2 state, only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan</code> - space-separated list of target temperatures for fan (0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">65 0 70</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_min</code> - space-separated list of minimal fan speed (0 - ignore) for tfan option, only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">30 0 35</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_max</code> - space-separated list of maximal fan speed (0 - ignore) for tfan option, only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">90 0 80</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--logfile</code> or shortly <code class="language-plaintext highlighter-rouge">-l</code> - filename to save logs on disk, default value is `` (for example: <code class="language-plaintext highlighter-rouge">/usr/user/miner.log</code>, <code class="language-plaintext highlighter-rouge">c:\miner.log</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_date</code> - enable/disable date in each message, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_stratum</code> - enable/disable data of communication with the server, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_newjob</code> - enable/disable information about new jobs, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--templimit</code> or shortly <code class="language-plaintext highlighter-rouge">-t</code> - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: <code class="language-plaintext highlighter-rouge">85 80 75</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--templimit_mem</code> or shortly <code class="language-plaintext highlighter-rouge">-tm</code> - space-separated list of memory temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: <code class="language-plaintext highlighter-rouge">95 100 105</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--color</code> or shortly <code class="language-plaintext highlighter-rouge">-c</code> - enable/disable color output for console, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--watchdog</code> or shortly <code class="language-plaintext highlighter-rouge">-w</code> - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--watchdog_restart_delay</code> - miner restart delay for watchdog in seconds, default value is <code class="language-plaintext highlighter-rouge">10</code> (for example: <code class="language-plaintext highlighter-rouge">1</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--report_interval</code> - statistics report interval in seconds, default value is <code class="language-plaintext highlighter-rouge">30</code> (for example: <code class="language-plaintext highlighter-rouge">5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--api</code> - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: <code class="language-plaintext highlighter-rouge">10050</code>, <code class="language-plaintext highlighter-rouge">20030</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--config</code> - specify configuration file
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pers</code> - personalization string for equihash algorithm (for example: <code class="language-plaintext highlighter-rouge">BgoldPoW</code>, <code class="language-plaintext highlighter-rouge">BitcoinZ</code>, <code class="language-plaintext highlighter-rouge">Safecoin</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pec</code> - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--electricity_cost</code> - pass cost of electricity in USD per kWh, miner will report $ spent to mining
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--intensity</code> or shortly <code class="language-plaintext highlighter-rouge">-i</code> - space-separated list of intensities (1-100), default value is <code class="language-plaintext highlighter-rouge">100</code> (for example: <code class="language-plaintext highlighter-rouge">90 90 90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--share_check</code> -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--nvml</code> - enable/disable NVML (statistic library for CUDA devices), default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cuda</code> - enable/disable CUDA platform, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--opencl</code> - enable/disable OpenCL platform, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+</li>
+</ul>
+<p><img srcset="/assets/images/documentation/mobile/gminer.webp 323w,              /assets/images/documentation/webp/gminer.webp 517w,              /assets/images/documentation/large/gminer.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/gminer.png" alt="GMiner" loading="lazy" decoding="async"></p>
+<p>Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 --templimit 80 --dag_mode 0</code></p>
+<p>or for each device separately, if we have 3 devices:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2</code></p>
 <p>Miner supports failover pools, if the main pool is not available, the miner switches to the failover pools, after the main pool is available, the miner will switch to it, example:<br>
-<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server eu1.ethermine.org:4444 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --server asia.sparkpool.com:3333 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1</code><br>
-eth.2miners.com - main pool<br>
-eu1.ethermine.org and asia.sparkpool.com - failover pools<br></p>
-<p>Miner resets mt, cclock, cvddc, mclock, mvddc parameters to default values while DAG generation to avoid errors<br></p>
-<h1 id="parameters-details">Parameters details:</h1>
-<p><code class="language-plaintext highlighter-rouge">--kernel</code> - allows you to choose one of several kernels, the fastest kernel is automatically selected by default.<br>
-Cores differ in performance and energy efficiency depending on the GPU model and overclocking parameters.<br>
-To set the kernel manually, pass the kernel index to the parameter.<br>
-Try to choose the best kernel for you manually by going through all the options<br></p>
-<p><code class="language-plaintext highlighter-rouge">--mt</code> - allows you to choose one of several tweaks for GPUs with GDDR5X and GDDR5 memory. <br>
-A higher value gives more performance and less stability, risk of finding invalid shares increases. <br>
-Try to check all values to determine which one suits you best.<br>
-Administrator rights required. <br></p>
-<p><code class="language-plaintext highlighter-rouge">--safe_dag</code> - allows you to choose a way to DAG generation.<br>
-In fast mode (value 1, auto for GTX GPUs) miner generates DAG as quickly as possible, DAG errors are possible at maximum overclocking.<br>
-In safe mode (value 2, auto for RTX GPUs) miner generates DAG with error control, useful for RTX cards at maximum overclocking.<br></p>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --server eu1.ethermine.org:4444 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --server asia.sparkpool.com:3333 --user 0xada842613541e55e2500478892a334cde74ff653.worker1</code></p>
+<ul>
+ <li>eth.2miners.com - main pool
+ </li>
+<li>eu1.ethermine.org and asia.sparkpool.com - failover pools
+</li>
+</ul>
+<p>Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors</p>
+<h2 id="parameters-details">Parameters details</h2>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--kernel</code> - allows you to choose one of several kernels, the fastest kernel is automatically selected by default.
+ </li>
+<li>Cores differ in performance and energy efficiency depending on the GPU model and overclocking parameters.
+ </li>
+<li>To set the kernel manually, pass the kernel index to the parameter.
+ </li>
+<li>
+   <p>Try to choose the best kernel for you manually by going through all the options</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mt</code> - allows you to choose one of several tweaks for GPUs with GDDR5X and GDDR5 memory.
+ </li>
+<li>A higher value gives more performance and less stability, risk of finding invalid shares increases.
+ </li>
+<li>Try to check all values to determine which one suits you best.
+ </li>
+<li>
+   <p>Administrator rights required.</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--safe_dag</code> - allows you to choose a way to DAG generation.
+ </li>
+<li>In fast mode (value 1, auto for GTX GPUs) miner generates DAG as quickly as possible, DAG errors are possible at maximum overclocking.
+ </li>
+<li>
+   <p>In safe mode (value 2, auto for RTX GPUs) miner generates DAG with error control, useful for RTX cards at maximum overclocking.</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan</code> - allows you to set a target temperature for fans.
+ </li>
+<li>Miner monitors temperature of GPU and actively controls the fan speed trying to hold target temperature.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_min</code> and <code class="language-plaintext highlighter-rouge">--tfan_max</code> options set minimum and maximum fan speed limits.
+</li>
+</ul>
+<h2 id="fast-start">Fast start</h2>
+<p>To start Ethash, enter at the command line:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1</code></p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--algo</code> - mining algorithm, in this case ethash
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--server</code> - pool address and port, in this case the pool is eth.2miners.com, port is 2020
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user</code> - Ethash wallet and worker name, in this case wallet is 0xada842613541e55e2500478892a334cde74ff653, worker is worker1
+</li>
+</ul>
+<p>For Ethash and Etchash algorithms, there are 2 options for stratum protocol (proxy and stratum), to explicitly specify the protocol use the <code class="language-plaintext highlighter-rouge">--proto</code> parameter, for example, to use Nicehash pool, enter in the command line:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server daggerhashimoto.usa.nicehash.com:3353 --user 3LsTTSsSy17xuoShcMHuRgGBxKn1AHgeVN --proto stratum</code></p>
+<p>If you have a mixed rig, you can run the miner only on CUDA devices:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --opencl 0</code>
+or only on OpenCL devices:
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --cuda 0</code></p>
+<p>or on devices of your choice, such as GPU0 GPU2 and GPU4:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --devices 0 2 4</code>
+the list of available GPUs can be seen by calling the following command:
+<code class="language-plaintext highlighter-rouge">miner --list_devices</code></p>
+<p>For Ethash and Etchash algorithms there is a possibility of manual selection of kernels:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 2 3</code>
+<code class="language-plaintext highlighter-rouge">--kernel 0 2 3</code> - kernel numbers for each device, 0 - auto kernel selection for GPU0, kernel #2 for GPU1, kernel #3 for GPU2</p>
+<p>Also you can select one kernel for all devices:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 5</code>
+<code class="language-plaintext highlighter-rouge">--kernel 5</code> select kernel #5 for all devices</p>
+<p>To set temperature limits on GPU0 GPU2 and GPU4, upon reaching which mining on this device will pause until it cools down:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --devices 0 2 4 --templimit 80 70 65</code></p>
+<p>where 80 is the temperature limit for GPU0, 70 is the temperature limit for GPU2, 65 is the temperature limit for GPU4</p>
+<p>To save the miners logs to a file for later analysis:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --logfile c:\log.txt</code>
+where “c:\log.txt” is the path to the file with the miners logs</p>
      </section>
 </div>
    </article>
