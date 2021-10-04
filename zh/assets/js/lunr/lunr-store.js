@@ -1,6 +1,6 @@
 var store = [{
         "title": "GMiner Setup Guide [2021]",
-        "excerpt":"You can use this list as a reference for all Launch Parameters supported by GMiner.    You can download GMiner 2.69 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace GMiner.exe with ./GMiner in the command-line examples below.   ","categories": ["documentation"],
+        "excerpt":"You can use this list as a reference for all Launch Parameters supported by GMiner.    You can download GMiner 2.70 from here:   Download Now   Download (mirror)   Linux:  Under Linux you need to replace GMiner.exe with ./GMiner in the command-line examples below.   ","categories": ["documentation"],
         "tags": ["GMiner"],
         "url": "https://gminer.info/documentation/setup/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
