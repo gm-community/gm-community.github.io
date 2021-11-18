@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="es" class="no-js">
    <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <!-- begin _includes/seo.html -->
-<title>Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам</title>
-<meta name="description" content="Miners developer">
+<title>GMiner: opciones y argumentos de la línea de comandos</title>
+<meta name="description" content="Todos los comandos del software Gminer.">
  <meta name="author" content="Gminer">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Gminer">
-<meta property="og:title" content="Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам">
-<meta property="og:url" content="https://gminer.info/articles/">
- <meta property="og:description" content="Miners developer">
+<meta property="og:title" content="GMiner: opciones y argumentos de la línea de comandos">
+<meta property="og:url" content="https://gminer.info/documentation/arguments/">
+ <meta property="og:description" content="Todos los comandos del software Gminer.">
  <meta property="og:image" content="https://gminer.info/assets/images/site-logo.png">
  <meta name="twitter:site" content="@Gminer">
- <meta name="twitter:title" content="Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам">
- <meta name="twitter:description" content="Miners developer">
- <meta name="twitter:url" content="https://gminer.info/articles/">
+ <meta name="twitter:title" content="GMiner: opciones y argumentos de la línea de comandos">
+ <meta name="twitter:description" content="Todos los comandos del software Gminer.">
+ <meta name="twitter:url" content="https://gminer.info/documentation/arguments/">
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://gminer.info/assets/images/site-logo.png">
-<link rel="canonical" href="https://gminer.info/ru/articles/">
-<link rel="next" href="https://gminer.info/ru/articles/page2/index.html">
+ <meta property="article:published_time" content="2021-06-02T00:00:00+00:00">
+ <meta property="article:modified_time" content="2021-11-18T00:00:00+00:00">
+<link rel="canonical" href="https://gminer.info/es/documentation/arguments/">
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,7 +35,7 @@
  <meta name="google-site-verification" content="RJwn8zj9w_G0wBZZwbx3O4jDZfnRFGco8vtMRf3HJDs">
  <meta name="yandex-verification" content="d751c0163c5ff097">
 <!-- end _includes/seo.html -->
-<meta name="description" content="Miners developer">
+<meta name="description" content="Todos los comandos del software Gminer.">
  <meta name="author" content="Gminer">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Gminer Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,12 +74,12 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <!-- end custom head snippets -->
 <meta name="coinzilla" content="4e6a7df59d3aee44c75350d04bf79395">
 	<!-- link alternate -->
-		<link rel="alternate" hreflang="en" href="https://gminer.info/articles/index.html">
-		<link rel="alternate" hreflang="ru" href="https://gminer.info/ru/articles/index.html">
-		<link rel="alternate" hreflang="es" href="https://gminer.info/es/articles/index.html">
-		<link rel="alternate" hreflang="zh" href="https://gminer.info/zh/articles/index.html">
+		<link rel="alternate" hreflang="en" href="https://gminer.info/documentation/arguments/">
+		<link rel="alternate" hreflang="ru" href="https://gminer.info/ru/documentation/arguments/">
+		<link rel="alternate" hreflang="es" href="https://gminer.info/es/documentation/arguments/">
+		<link rel="alternate" hreflang="zh" href="https://gminer.info/zh/documentation/arguments/">
  </head>
-<body class="layout--articles nolang">
+<body class="layout--single">
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
@@ -98,27 +99,27 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  <div class="masthead__inner-wrap">
    <div class="masthead__menu">
      <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/ru">
+        <a class="site-title" href="/es">
           Gminer
         </a>
 		<ul class="visible-links">
            <li class="masthead__menu-item">
  </li>
 <li>
-    <a href="/ru/documentation/setup/">Быстрый Старт</a>
+    <a href="/es/documentation/setup/">Inicio rápido</a>
  </li>
 <li>
-    <a href="/ru/download/">Скачать</a>
+    <a href="/download/">Descargar</a>
        </li>
 </ul>
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">Toggle search</span>
+          <span class="visually-hidden">Alternar búsqueda</span>
           <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
           </svg>
         </button>
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Выпадающее меню</span>
+          <span class="visually-hidden">Alternar menú</span>
          <div class="navicon"></div>
         </button>
        <ul class="hidden-links hidden"></ul>
@@ -128,123 +129,441 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </div>
 <div class="lang-nav">	
 	<nav id="lang-sel">
-		<a href="/articles/" class="footer__link">en</a>
-		<a href="/ru/articles/" class="footer__link">ru</a>
-		<a href="/es/articles/" class="footer__link">es</a>
-		<a href="/zh/articles/" class="footer__link">zh</a>
+		<a href="/documentation/arguments/" class="footer__link">en</a>
+		<a href="/ru/documentation/arguments/" class="footer__link">ru</a>
+		<a href="/es/documentation/arguments/" class="footer__link">es</a>
+		<a href="/zh/documentation/arguments/" class="footer__link">zh</a>
 	</nav>	
 </div>
    <div class="initial-content">
-<div id="main" role="main">
- <div class="archive">
-     <h1 id="page-title" class="page__title">Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам</h1>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/boston-06-30/">Капитализация и Регулирование Стейбкоинов</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/stablecoin.jpg" alt="stablecoin" loading="lazy" decoding="async"></p>
-      <a href="/ru/articles/boston-06-30/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/grayscale-06-19/">Портфель Криптовалют на Июль и на Весь 2021 Год</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/grayscale100.jpg" alt="grayscale" loading="lazy" decoding="async"></p>
-      <a href="/ru/articles/grayscale-06-19/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/knr-06-18/">Курс Доллара Рекордно Ослабнет: Причины</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/knr.jpg" alt="knr" loading="lazy" decoding="async">
-<em>Если у вас были сомнения в надежности американского доллара, то сейчас еще есть время из него выйти на всякий случай.</em></p>
-      <a href="/ru/articles/knr-06-18/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/gensler-06-17/">Регулирование Криптовалюты в США и в Мире</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/gensler.jpg" alt="Гэри Генслер" loading="lazy" decoding="async">
-<em>По мере продвижения в органы власти выходцев из банковской империи Rothschild Concordia B.V., регулирование криптовалют будет постепенно ослабевать</em>.</p>
-      <a href="/ru/articles/gensler-06-17/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/trez-06-17/">Мошенники Бесплатно Раздают Перепрошитые Кошельки Ledger</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/ledger44.jpg" alt="ledger" loading="lazy" decoding="async">
-<em>Напомню, что инциденты с кошельками Ledger  происходят в среднем раз в год.</em></p>
-      <a href="/ru/articles/trez-06-17/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/niderlands-06-15/">Нидерланды - Запрет Биткоина и Криптовалют. Причины</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/hasecamp.jpg" alt="Питер Хасекамп" loading="lazy" decoding="async">
-<em>Легче оставить себе небольшую премию в 10-15%, зашитую в прошивке асиков и не тратить на это электроэнергию.</em></p>
-      <a href="/ru/articles/niderlands-06-15/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/clear-06-15/">Куба вслед за Сальвадором легализует Биткоин? Прогноз</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  2 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/usd15.jpg" alt="usd чегевара" loading="lazy" decoding="async">
-<em>Естественно, что для Кубы было бы логично ввести в обращение криптовалюты, в первую очередь биткоин, и Куба, также как и Сальвадор является членом Центрально-американского банка.</em></p>
-      <a href="/ru/articles/clear-06-15/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/trezor-06-07/">Цикл Биткоина: Текущий и на 2021 Год</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/cikl.jpg" alt="cikl" loading="lazy" decoding="async"></p>
-      <a href="/ru/articles/trezor-06-07/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/btc-price-06-05/">Цена Биткоина Катастрофически Упадет в Августе - считают аналитики</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/btc_whale.jpg" alt="btc_whale" loading="lazy" decoding="async">
-<em>Вывод: не читать аналитиков, следить за китами, поймать сантимент.</em></p>
-      <a href="/ru/articles/btc-price-06-05/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-     <article class="post archive__item-excerpt">
-     <h2><a href="/ru/articles/musk-06-04/">Илон Маск Окончательно Отказался от Биткоина (Причины)</a></h2>
-	  	<span class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  менее 1 мин на чтение
-</span>
-       <p><img src="/assets/images/articles/tesla.jpg" alt="tesla" loading="lazy" decoding="async">
-<em>Илон Маск Окончательно Отказался от Биткоина и Криптовалют</em></p>
-      <a href="/ru/articles/musk-06-04/" class="read-more btn btn--info">Читать далее</a>
-   </article>
-<nav class="pagination">
-<ul>
-   <li class="previous">
-        <a href="/ru/articles/index.html">Первая</a>
-       </li>
-<li class="selected">
-            <a href="/ru/articles/index.html" title="Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам">1</a>
-       </li>
+     <div id="main" role="main">
+ <div class="sidebar nosticky">
+<nav class="nav__list">
+ <h3 class="nav__title" style="padding-left: 0;">Contents</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle menu</label>
+ <ul class="nav__items">
+     <li>
+          <a href="/documentation/setup/"><span class="nav__sub-title">Setup</span></a>
+     </li>
 <li>
-            <a href="/ru/articles/page2/index.html" title="Биткоин и Криптовалюта: Прогнозы, Новости, Новичкам - Страница 2">2</a>
-   </li>
-<li class="next">
-        <a href="/ru/articles/page2/index.html">туда →</a>
-   </li>
-<li class="previous">
-        <a href="/ru/articles/page2/index.html">Последняя</a>
-</li>
+          <a href="/documentation/arguments/"><span class="nav__sub-title">Command Line Arguments</span></a>
+     </li>
+<li>
+          <a href="/documentation/changelog/"><span class="nav__sub-title">Changelog</span></a>
+ </li>
 </ul>
 </nav>
  </div>
+ <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+   <meta itemprop="headline" content="GMiner: opciones y argumentos de la línea de comandos">
+   <meta itemprop="description" content="Todos los comandos del software Gminer.">
+   <meta itemprop="datePublished" content="June 02, 2021">
+   <meta itemprop="dateModified" content="November 18, 2021"> 
+   <div class="page__inner-wrap">
+      <header>
+		 <h1 id="page-title" class="page__title" itemprop="headline">GMiner  - opciones y argumentos de la línea de comandos
+</h1>
+           <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  9 minuto(s) de lectura
+</p>
+       </header>
+     <section class="page__content" itemprop="text">
+         <aside class="sidebar__right sticky">
+           <nav class="toc">
+            <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> En esta página</h4></header>
+             <ul class="toc__menu">
+ <li>
+<a href="#descargar">Descargar</a>
+ </li>
+<li>
+<a href="#opciones-de-cmd">Opciones de CMD</a>
+ </li>
+<li>
+<a href="#detalles-de-los-par%C3%A1metros">Detalles de los parámetros</a>
+ </li>
+<li>
+<a href="#comienzo-r%C3%A1pido">Comienzo rápido</a>
+</li>
+</ul>
+           </nav>
+         </aside>
+       <p><em>Todos los comandos del software Gminer.</em></p>
+<h2 id="descargar">Descargar</h2>
+<p><a href="https://github.com/develsoftware/GMinerRelease/releases/download/2.72/gminer_2_72_windows64.zip" class="btn btn--success btn--x-large" rel="nofollow noopener" target="_blank">Descargar ahora</a>
+<!-- Coinzilla Banner 300x250 -->
+<script async="" src="https://coinzillatag.com/lib/display.js"></script></p>
+<div class="coinzilla" data-zone="C-342619161148aac9734"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "342619161148aac9734";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
+<h2 id="opciones-de-cmd">Opciones de CMD</h2>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--help</code> or shortly <code class="language-plaintext highlighter-rouge">-h</code> - display available options
+ </li>
+<li>–version<code class="language-plaintext highlighter-rouge"> or shortly </code>-v` - print program version
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user_id</code> - print user ID
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--algo</code> or shortly <code class="language-plaintext highlighter-rouge">-a</code> - mining algorithm (for example: <code class="language-plaintext highlighter-rouge">ethash</code>, <code class="language-plaintext highlighter-rouge">kawpow</code>, <code class="language-plaintext highlighter-rouge">cuckatoo32</code>, <code class="language-plaintext highlighter-rouge">beamhash</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--list_devices</code> - list devices available for mining
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--contest_wallet</code> - Ethash wallet, parameter is required to participate in contest
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--server</code> or shortly <code class="language-plaintext highlighter-rouge">-s</code> - mining pool address (for example: <code class="language-plaintext highlighter-rouge">eu.btgpool.pro</code>, <code class="language-plaintext highlighter-rouge">eu1.zhash.pro</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--port</code> or shortly <code class="language-plaintext highlighter-rouge">-n</code> - mining pool port (for example: <code class="language-plaintext highlighter-rouge">5057</code>, <code class="language-plaintext highlighter-rouge">1445</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user</code> or shortly <code class="language-plaintext highlighter-rouge">-u</code> - mining pool login or wallet address, workers name can be specified with a dot (for example: <code class="language-plaintext highlighter-rouge">sRuJK1BmA758GbOn.worker</code>, <code class="language-plaintext highlighter-rouge">GfGLyfP9GzZbPeTzvW1KSx3HeMnrNAiGWY.rig0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--worker</code> - worker name for Ethash strarum, for pools that does not supoort wallet.worker (for example: <code class="language-plaintext highlighter-rouge">rig0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pass</code> or shortly <code class="language-plaintext highlighter-rouge">-p</code> - worker password or default pool password, default value is <code class="language-plaintext highlighter-rouge">x</code> (for example: <code class="language-plaintext highlighter-rouge">sRuJK1Bm</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--ssl</code> - enable/disable secure connection with mining pool, must be supported by a pool, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--proxy</code> - SOCKS5 proxy server address (for example: 31.7.232.178:1080)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--proto</code> - specify stratum protocol mode, possible values: proxy and stratum, useful for Ethash mining, default value is <code class="language-plaintext highlighter-rouge">proxy</code> (for example: <code class="language-plaintext highlighter-rouge">stratum</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--dag_mode</code> - space-separated list of Dag file modes (0 - auto, 1 - single, 2 - double), default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">2 1 0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--safe_dag</code> - space-separated list of DAG generation modes (0 - auto, 1 - fast mode, 2 - safe mode, in auto mode GTX GPUs - fast DAG and RTX GPUs - safe DAG), only Nvidia GPUs are supported, default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">2 1 0</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--dag_limit</code> - space-separated list of Dag file size limits in megabytes, to disable the limit use 0, default is <code class="language-plaintext highlighter-rouge">0</code> (for example: <code class="language-plaintext highlighter-rouge">4096 4096 4096</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cache_dag</code> -  enable/disable caching of DAG file for mining Ethash + Zilliqa or Nicehash, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--devices</code> or shortly <code class="language-plaintext highlighter-rouge">-d</code> - space-separated list of cuda devices, default value is all available devices (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--kernel</code> or shortly <code class="language-plaintext highlighter-rouge">-k</code> - space-separated list of kernel numbers for each device (0 - auto, 1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash) (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mt</code> - space-separated list of memory tweak numbers for each device (range from 0 to 6, 0 - disable tweaks), only Nvidia GPUs with GDDR5X and GDDR5 memory are supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">1 3 5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--fan</code> - space-separated list of fan speed for each device in percents (range from 0 to 100, 0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">60 0 90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pl</code> - space-separated list of power limits for each device in percents (range from 0 to 100 for Nvidia GPUs and -50 - 50 for AMD GPUs, 0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">30 0 50</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cclock</code> - space-separated list of core clock offsets (for Nvidia GPUs) or absolute core clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">100 0 -90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mclock</code> - space-separated list of memory clock offsets (for Nvidia GPUs) or absolute memory clocks (for AMD GPUs) for each device in MHz (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">100 0 -90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cvddc</code> - space-separated list of core voltage offsets in % (for Nvidia GPUs) or absolute core voltages (for AMD GPUs) for each device in mV (0 - ignore), only Windows is supported, requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">900 0 1100</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--lock_voltage</code> - space-separated list of locked voltage points for each device in mV (0 - ignore), only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">900 0 1000</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--lock_cclock</code> - space-separated list of locked core clock point for each device in MHz (0 - ignore), only Nvidia GPUs are supported. Requires running miner with admin privileges (for example: <code class="language-plaintext highlighter-rouge">1200 0 1500</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--p2state</code> - enable/disable P2 state, only Windows and Nvidia GPUs are supported. Requires running miner with admin privileges
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan</code> - space-separated list of target temperatures for fan (0 - ignore), only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">65 0 70</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_min</code> - space-separated list of minimal fan speed (0 - ignore) for tfan option, only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">30 0 35</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_max</code> - space-separated list of maximal fan speed (0 - ignore) for tfan option, only Windows is supported (for example: <code class="language-plaintext highlighter-rouge">90 0 80</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--logfile</code> or shortly <code class="language-plaintext highlighter-rouge">-l</code> - filename to save logs on disk, default value is `` (for example: <code class="language-plaintext highlighter-rouge">/usr/user/miner.log</code>, <code class="language-plaintext highlighter-rouge">c:\miner.log</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_date</code> - enable/disable date in each message, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_stratum</code> - enable/disable data of communication with the server, default value is <code class="language-plaintext highlighter-rouge">0</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--log_newjob</code> - enable/disable information about new jobs, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--templimit</code> or shortly <code class="language-plaintext highlighter-rouge">-t</code> - space-separated list of temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: <code class="language-plaintext highlighter-rouge">85 80 75</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--templimit_mem</code> or shortly <code class="language-plaintext highlighter-rouge">-tm</code> - space-separated list of memory temperature limits, upon reaching the limit, the GPU stops mining until it cools down (for example: <code class="language-plaintext highlighter-rouge">95 100 105</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--color</code> or shortly <code class="language-plaintext highlighter-rouge">-c</code> - enable/disable color output for console, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--watchdog</code> or shortly <code class="language-plaintext highlighter-rouge">-w</code> - enable/disable watchdog, watchdog monitors the main mining processes and restarts the application in the event of a failure or loss of connection to the pools, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--watchdog_restart_delay</code> - miner restart delay for watchdog in seconds, default value is <code class="language-plaintext highlighter-rouge">10</code> (for example: <code class="language-plaintext highlighter-rouge">1</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--report_interval</code> - statistics report interval in seconds, default value is <code class="language-plaintext highlighter-rouge">30</code> (for example: <code class="language-plaintext highlighter-rouge">5</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--api</code> - telemetry server port, allows you to monitor the miner status remotely, open a link in your browser http://localhost:port (for example: <code class="language-plaintext highlighter-rouge">10050</code>, <code class="language-plaintext highlighter-rouge">20030</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--config</code> - specify configuration file
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pers</code> - personalization string for equihash algorithm (for example: <code class="language-plaintext highlighter-rouge">BgoldPoW</code>, <code class="language-plaintext highlighter-rouge">BitcoinZ</code>, <code class="language-plaintext highlighter-rouge">Safecoin</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--pec</code> - enable/disable power efficiency calculator. Power efficiency calculator display of energy efficiency statistics of GPU, higher CPU load. Default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--electricity_cost</code> - pass cost of electricity in USD per kWh, miner will report $ spent to mining
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--intensity</code> or shortly <code class="language-plaintext highlighter-rouge">-i</code> - space-separated list of intensities (1-100), default value is <code class="language-plaintext highlighter-rouge">100</code> (for example: <code class="language-plaintext highlighter-rouge">90 90 90</code>)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--share_check</code> -  enable/disable share check on CPU for mining Ethash, Etcash, KAWPOW and ProgPoW, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--nvml</code> - enable/disable NVML (statistic library for CUDA devices), default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--cuda</code> - enable/disable CUDA platform, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--opencl</code> - enable/disable OpenCL platform, default value is <code class="language-plaintext highlighter-rouge">1</code> (<code class="language-plaintext highlighter-rouge">0</code> - off or <code class="language-plaintext highlighter-rouge">1</code> - on)
+</li>
+</ul>
+<p><img srcset="/assets/images/documentation/mobile/gminer.webp 323w,              /assets/images/documentation/webp/gminer.webp 517w,              /assets/images/documentation/large/gminer.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/documentation/jpeg/gminer.png" alt="GMiner" loading="lazy" decoding="async"></p>
+<p>Parameters dag_mode, safe_dag, dag_limit, kernel, mt, fan, pl, cclock, cvddc, mclock, lock_voltage, lock_cclock, tfan, templimit, templimit_mem, intensity can be specified with one parameter for all devices:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 --templimit 80 --dag_mode 0</code></p>
+<p>or for each device separately, if we have 3 devices:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 1 1 --templimit 80 70 90 --dag_mode 0 1 2</code></p>
+<p>Miner supports failover pools, if the main pool is not available, the miner switches to the failover pools, after the main pool is available, the miner will switch to it, example:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --server eu1.ethermine.org:4444 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --server asia.sparkpool.com:3333 --user 0xada842613541e55e2500478892a334cde74ff653.worker1</code></p>
+<ul>
+ <li>eth.2miners.com - main pool
+ </li>
+<li>eu1.ethermine.org and asia.sparkpool.com - failover pools
+</li>
+</ul>
+<p>Miner resets mt, cclock, cvddc, mclock parameters to default values while DAG generation to avoid errors</p>
+<h2 id="detalles-de-los-parámetros">Detalles de los parámetros</h2>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--kernel</code> - allows you to choose one of several kernels, the fastest kernel is automatically selected by default.
+ </li>
+<li>Cores differ in performance and energy efficiency depending on the GPU model and overclocking parameters.
+ </li>
+<li>To set the kernel manually, pass the kernel index to the parameter.
+ </li>
+<li>
+   <p>Try to choose the best kernel for you manually by going through all the options</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--mt</code> - allows you to choose one of several tweaks for GPUs with GDDR5X and GDDR5 memory.
+ </li>
+<li>A higher value gives more performance and less stability, risk of finding invalid shares increases.
+ </li>
+<li>Try to check all values to determine which one suits you best.
+ </li>
+<li>
+   <p>Administrator rights required.</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--safe_dag</code> - allows you to choose a way to DAG generation.
+ </li>
+<li>In fast mode (value 1, auto for GTX GPUs) miner generates DAG as quickly as possible, DAG errors are possible at maximum overclocking.
+ </li>
+<li>
+   <p>In safe mode (value 2, auto for RTX GPUs) miner generates DAG with error control, useful for RTX cards at maximum overclocking.</p>
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan</code> - allows you to set a target temperature for fans.
+ </li>
+<li>Miner monitors temperature of GPU and actively controls the fan speed trying to hold target temperature.
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--tfan_min</code> and <code class="language-plaintext highlighter-rouge">--tfan_max</code> options set minimum and maximum fan speed limits.
+</li>
+</ul>
+<h2 id="comienzo-rápido">Comienzo rápido</h2>
+<p>To start Ethash, enter at the command line:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1</code></p>
+<ul>
+ <li>
+<code class="language-plaintext highlighter-rouge">--algo</code> - mining algorithm, in this case ethash
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--server</code> - pool address and port, in this case the pool is eth.2miners.com, port is 2020
+ </li>
+<li>
+<code class="language-plaintext highlighter-rouge">--user</code> - Ethash wallet and worker name, in this case wallet is 0xada842613541e55e2500478892a334cde74ff653, worker is worker1
+</li>
+</ul>
+<p>For Ethash and Etchash algorithms, there are 2 options for stratum protocol (proxy and stratum), to explicitly specify the protocol use the <code class="language-plaintext highlighter-rouge">--proto</code> parameter, for example, to use Nicehash pool, enter in the command line:<br>
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server daggerhashimoto.usa.nicehash.com:3353 --user 3LsTTSsSy17xuoShcMHuRgGBxKn1AHgeVN --proto stratum</code></p>
+<p>If you have a mixed rig, you can run the miner only on CUDA devices:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --opencl 0</code>
+or only on OpenCL devices:
+<code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --cuda 0</code></p>
+<p>or on devices of your choice, such as GPU0 GPU2 and GPU4:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --devices 0 2 4</code>
+the list of available GPUs can be seen by calling the following command:
+<code class="language-plaintext highlighter-rouge">miner --list_devices</code></p>
+<p>For Ethash and Etchash algorithms there is a possibility of manual selection of kernels:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 0 2 3</code>
+<code class="language-plaintext highlighter-rouge">--kernel 0 2 3</code> - kernel numbers for each device, 0 - auto kernel selection for GPU0, kernel #2 for GPU1, kernel #3 for GPU2</p>
+<p>Also you can select one kernel for all devices:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --kernel 5</code>
+<code class="language-plaintext highlighter-rouge">--kernel 5</code> select kernel #5 for all devices</p>
+<p>To set temperature limits on GPU0 GPU2 and GPU4, upon reaching which mining on this device will pause until it cools down:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --devices 0 2 4 --templimit 80 70 65</code></p>
+<p>where 80 is the temperature limit for GPU0, 70 is the temperature limit for GPU2, 65 is the temperature limit for GPU4</p>
+<p>To save the miners logs to a file for later analysis:</p>
+<p><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0xada842613541e55e2500478892a334cde74ff653.worker1 --logfile c:\log.txt</code>
+where “c:\log.txt” is the path to the file with the miners logs</p>
+     </section>
+      <footer class="page__meta">
+ <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Etiquetas: </strong>
+    <span itemprop="keywords">
+      <a href="/tags/gminer" class="page__taxonomy-item" rel="tag">GMiner</a>
+    </span>
+ </p>
+ <p class="page__taxonomy">
+    <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categorías:
+    <span itemprop="keywords">
+      <a href="/documentation" class="page__taxonomy-item" rel="tag">documentation</a>
+    </span>
+ </p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Actualizado: <time datetime="2021-11-18T00:00:00+00:00">18.11.2021</time></p>
+     </footer>
+     <section class="page__share">
+   <h4 class="page__share-title">Compartir en</h4>
+  <a href="https://twitter.com/intent/tweet?via=Gminer&amp;text=GMiner%26%2358%3B+opciones+y+argumentos+de+la+l%C3%ADnea+de+comandos%20https%3A%2F%2Fgminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fgminer.info%2Fdocumentation%2Farguments%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+</div>
+   </article>
+</div>
+<p class="imgcen notice--success bold fsize"><a href="https://bit.ly/3rn50kC" rel="nofollow noopener" target="_blank">¡Crea una cuenta nueva!</a></p>
+ <!-- download -->	
+<div class="mar">	
+  <div class="tim-down3">
+ <section class="text-center white-text">
+   <div class="row">
+     <div class="down-inner">
+       <h2 class="h2 mb-4 pb-2">Download now</h2>
+       <p class="text-center mx-auto mb-4 pb-2">Latest version is 2.72<br>
+File: *gminer.exe, <br>
+<span class="break">SHA256: a6a5b5091506e039002968b9f95bdf30e2fdfb03db7449612594c159063a1523</span><br></p>
+       <hr class="hr-light" style="width: 3rem;">
+       <ul class="rating mt-4 pt-2 mb-1">
+<li>
+<i class="fas fa-star"></i>
+</li>
+<li>
+<i class="fas fa-star"></i>
+</li>
+<li>
+<i class="fas fa-star"></i>
+</li>
+<li>
+<i class="fas fa-star"></i>
+</li>
+<li>
+<i class="fas fa-star"></i>
+</li>
+</ul>
+       <p class="mb-4 pb-2"><small>Based on 3100+ reviews</small></p>
+        <button type="button" class="front-but win"> <a href="https://github.com/develsoftware/GMinerRelease/releases/download/2.72/gminer_2_72_windows64.zip" target="_blank" rel="nofollow noopener">Download (windows)</a></button>
+				<button type="button" class="front-but lin"> <a href="https://github.com/develsoftware/GMinerRelease/releases/download/2.72/gminer_2_72_linux64.tar.xz" rel="nofollow noopener" target="_blank">Download (linux)</a></button>
+     </div>
+   </div>
+ </section>
+</div>	
+</div>
+<div class="tim-vi2">	
+ <!-- related_posts -->
+   <div class="page__related">
+     <h4 class="page__related-title">Puede que también te interese</h4>
+     <div class="grid__wrapper">
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/download/2.54/" rel="permalink">Download GMiner  2.54 - AMD GPU Miner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  menos de 1 minuto(s) de lectura
+</p>
+   <p class="archive__item-excerpt" itemprop="description">
+Get started with GMiner
+		Version: 2.54
+		File: *gminer.exe,  
+		SHA256: 612a490da78c2395afea9cde3592361524308fe71a6194bb1f901e212ac05b08
+		(Downloa...</p>
+ </article>
+</div>
+<div class="grid__item">
+ <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+     <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="" loading="lazy" decoding="async">
+     </div>
+   <h2 class="archive__item-title" itemprop="headline">
+        <a href="/documentation/setup/" rel="permalink">Argumentos de la línea de comandos de GMiner [2021]
+</a>
+   </h2>
+     <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+  menos de 1 minuto(s) de lectura
+</p>
+   <p class="archive__item-excerpt" itemprop="description">You can use this list as a reference for all Launch Parameters supported by GMiner.
+</p>
+ </article>
+</div>
+     </div>
+   </div>
+    <!-- post navigation footer -->
+ <nav class="pagination">
+      <a href="/documentation/setup/" class="pagination--pager" title="Argumentos de la línea de comandos de GMiner [2021]
+">Anterior</a>
+      <a href="/download/2.54/" class="pagination--pager" title="Download GMiner  2.54 - AMD GPU Miner [2021]
+">Siguiente</a>
+ </nav>
+  <!-- comments -->
+      <!--      -->
 </div>
    </div>
      <div class="search-content">
