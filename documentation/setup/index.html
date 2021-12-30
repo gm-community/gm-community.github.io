@@ -196,6 +196,9 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <a href="#log-file">Log file</a>
  </li>
 <li>
+<a href="#kernels">Kernels</a>
+ </li>
+<li>
 <a href="#cuda-support">CUDA support</a>
 </li>
 </ul>
@@ -252,6 +255,16 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <p>To save the miner’s logs to a file for later analysis:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt</code></p>
 <p>Where <code class="language-plaintext highlighter-rouge">c:\log.txt</code> is the path to the file with the miner’s logs.</p>
+<h2 id="kernels">Kernels</h2>
+<p><code class="language-plaintext highlighter-rouge">--kernel</code> or shortly <code class="language-plaintext highlighter-rouge">-k</code> - space-separated list of kernel numbers for each device.</p>
+<p>Available values:</p>
+<ul>
+ <li>0 - auto,
+ </li>
+<li>1-6 - kernel number, currently supports 6 kernels for Nvidia on Ethash/Etchash)
+</li>
+</ul>
+<p>For example: <code class="language-plaintext highlighter-rouge">--kernel 1 3 5</code></p>
 <h2 id="cuda-support">CUDA support</h2>
 <p>The GMiner Nvidia CUDA miner requires an Nvidia GPU with CUDA compute capability 5.0 or later as well as CUDA 9.0 driver support.</p>
      </section>
