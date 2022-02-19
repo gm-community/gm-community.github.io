@@ -1,6 +1,6 @@
 var store = [{
         "title": "GMiner 安装指南 [2021]",
-        "excerpt":"您可以将此列表用作 GMiner 支持的所有启动参数的参考。          您可以从这里下载 GMiner 2.78：   Download Now   Download (mirror)   Linux:  Under Linux you need to replace GMiner.exe with ./GMiner in the command-line examples below.   如何使用   要启动 Ethash，请在命令行输入：   miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1      --algo - mining algorithm, in this case ethash   --server - pool address and port, in this case the pool is eth.2miners.com, port is 2020   --user - Ethash wallet and worker name, in this case wallet is 0x5218597d48333d4a70cce91e810007b37e2937b5, worker is worker1  ","categories": ["documentation"],
+        "excerpt":"您可以将此列表用作 GMiner 支持的所有启动参数的参考。          您可以从这里下载 GMiner 2.79：   Download Now   Download (mirror)   Linux:  Under Linux you need to replace GMiner.exe with ./GMiner in the command-line examples below.   如何使用   要启动 Ethash，请在命令行输入：   miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1      --algo - mining algorithm, in this case ethash   --server - pool address and port, in this case the pool is eth.2miners.com, port is 2020   --user - Ethash wallet and worker name, in this case wallet is 0x5218597d48333d4a70cce91e810007b37e2937b5, worker is worker1  ","categories": ["documentation"],
         "tags": ["GMiner"],
         "url": "https://gminer.info/documentation/setup/",
         "teaser": "https://gminer.info/assets/images/thumbs/500x300.png"
