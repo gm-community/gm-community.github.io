@@ -2,6 +2,24 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gminer.info/zh/download/2.92/</loc>
+    
+    <lastmod>2022-04-11T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gminer.info/zh/download/latest/</loc>
+    
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://gminer.info/zh/download/2.54/</loc>
     
     <lastmod>2021-06-03T00:00:00+00:00</lastmod>
@@ -44,7 +62,7 @@
   <url>
     <loc>https://gminer.info/zh/about/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -56,7 +74,7 @@
   <url>
     <loc>https://gminer.info/zh/cookie/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -68,7 +86,7 @@
   <url>
     <loc>https://gminer.info/zh/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -92,7 +110,7 @@
   <url>
     <loc>https://gminer.info/zh/privacy/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -106,7 +124,7 @@
   <url>
     <loc>https://gminer.info/zh/articles/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -118,7 +136,7 @@
   <url>
     <loc>https://gminer.info/zh/blog/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -130,7 +148,7 @@
   <url>
     <loc>https://gminer.info/zh/documentation/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -142,7 +160,7 @@
   <url>
     <loc>https://gminer.info/zh/download/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -154,7 +172,7 @@
   <url>
     <loc>https://gminer.info/zh/video/</loc>
       
-        <lastmod>2022-05-11T16:40:59+00:00</lastmod>
+        <lastmod>2022-05-12T11:18:51+00:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
