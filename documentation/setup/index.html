@@ -21,7 +21,7 @@
    <meta name="twitter:card" content="summary">
      <meta name="twitter:image" content="https://gminer.info/assets/images/site-logo.png">
  <meta property="article:published_time" content="2021-06-02T00:00:00+00:00">
- <meta property="article:modified_time" content="2022-05-20T00:00:00+00:00">
+ <meta property="article:modified_time" content="2022-06-06T00:00:00+00:00">
 <link rel="canonical" href="https://gminer.info/documentation/setup/">
 <script type="application/ld+json">
 {
@@ -43,7 +43,7 @@
       "url": "https://gminer.info/assets/images/logo2.png"
     }
   },
-  "dateModified": "2022-05-20T00:00:00+00:00"
+  "dateModified": "2022-06-06T00:00:00+00:00"
 }
 </script>
  <meta name="google-site-verification" content="RJwn8zj9w_G0wBZZwbx3O4jDZfnRFGco8vtMRf3HJDs">
@@ -176,7 +176,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <meta itemprop="headline" content="GMiner Setup Guide (Ethereum, ETC and other) - [2022]">
    <meta itemprop="description" content="You can use this list as a reference for all Launch Parameters supported by gminer.Download">
    <meta itemprop="datePublished" content="June 02, 2021">
-   <meta itemprop="dateModified" content="May 20, 2022"> 
+   <meta itemprop="dateModified" content="June 06, 2022"> 
    <div class="page__inner-wrap">
       <header>
 		 <h1 id="page-title" class="page__title" itemprop="headline">GMiner Setup Guide
@@ -217,6 +217,9 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
  </li>
 <li>
 <a href="#Running%20GMiner%20to%20mine%20Ethereum">Running GMiner to mine Ethereum</a>
+ </li>
+<li>
+<a href="#linux-config">Linux config</a>
 </li>
 </ul>
            </nav>
@@ -267,7 +270,19 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <h2 id="temperature-limit">Temperature limit</h2>
 <p>To set temperature limits on GPU0 GPU2 and GPU4, upon reaching which mining on this device will pause until it cools down:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4 --templimit 80 70 65</code></p>
-<p>Where <code class="language-plaintext highlighter-rouge">80</code> is the temperature limit for GPU0, <code class="language-plaintext highlighter-rouge">70</code> is the temperature limit for GPU2, <code class="language-plaintext highlighter-rouge">65</code> is the temperature limit for GPU4</p>
+<p>Where <code class="language-plaintext highlighter-rouge">80</code> is the temperature limit for GPU0, <code class="language-plaintext highlighter-rouge">70</code> is the temperature limit for GPU2, <code class="language-plaintext highlighter-rouge">65</code> is the temperature limit for GPU4.</p>
+<p>Now you can see Memory Temp on Hive Os by Gminer.</p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/aUONTFvEMUE">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/aUONTFvEMUE">
+<span class="bold" itemprop="name" id="Show memory temperature in Hiveos ui">Show memory temperature in Hiveos ui</span>
+<div itemprop="description"><p>Are you tired of running commands in HiveOS to see memory temps? Or maybe you are tired of starting a shell every time? Do not worry, I got you covered so that you can see them in the UI!</p></div>
+<meta itemprop="uploadDate" content="2022-03-27">
+<meta itemprop="duration" content="PT3M27S">
+<div class="youtube-player" data-id="aUONTFvEMUE"></div>
+</div>
 <h2 id="log-file">Log file</h2>
 <p>To save the miner’s logs to a file for later analysis:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt</code></p>
@@ -295,6 +310,11 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <meta itemprop="duration" content="PT5M53S">
 <div class="youtube-player" data-id="0s7kZudhnjk"></div>
 </div>
+<h2 id="linux-config">Linux config</h2>
+<p>In Linux files need to be marked as “executable” to run.</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+./miner <span class="nt">--algo</span> ethash <span class="nt">--server</span> eth.2miners.com:2020 <span class="nt">--user</span> 0x1F170a2061537D2F3e9d917b632c91c35a738409 <span class="nt">--dalgo</span> ton <span class="nt">--dserver</span> wss://eu1.stratum.ton-pool.com/stratum <span class="nt">--duser</span> EQDk8olXYxBsrxiKvZSQMO1-Jjmx9_e-yNjvePJ3dxHlnAwf
+</code></pre></div></div>
      </section>
       <footer class="page__meta">
  <p class="page__taxonomy">
@@ -309,7 +329,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
       <a href="/documentation" class="page__taxonomy-item" rel="tag">documentation</a>
     </span>
  </p>
-		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-05-20T00:00:00+00:00">20.05.2022</time></p>
+		 <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2022-06-06T00:00:00+00:00">06.06.2022</time></p>
      </footer>
      <section class="page__share">
    <h4 class="page__share-title">Share on</h4>

@@ -182,7 +182,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 		 <h1 id="page-title" class="page__title" itemprop="headline">GMiner: Настройка
 </h1>
            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-  1 мин на чтение
+  2 мин на чтение
 </p>
        </header>
      <section class="page__content" itemprop="text">
@@ -263,6 +263,18 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <p>Чтобы установить пределы температуры для GPU0, GPU2 и GPU4, при достижении которого майнинг на этом устройстве будет приостановлен, пока не остынет:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --devices 0 2 4 --templimit 80 70 65</code></p>
 <p>Здесь: <code class="language-plaintext highlighter-rouge">80</code> - это предел температуры для GPU0, <code class="language-plaintext highlighter-rouge">70</code> - предел температуры для GPU2, <code class="language-plaintext highlighter-rouge">65</code> - предел температуры для GPU4.</p>
+<p>Теперь вы можете видеть температуру памяти в HIVE OS от GMINER.</p>
+<link itemprop="url" href="/#videoguide">
+<meta itemprop="image" content="/assets/images/og.png">
+<div class="youtubevideowrap" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+<link itemprop="thumbnailUrl" content="https://www.youtube.com/embed/lGx0taC5C0U">
+<link itemprop="contentUrl" content="https://www.youtube.com/embed/lGx0taC5C0U">
+<span class="bold" itemprop="name" id="Температура памяти на RTX картах - Gminer">Температура памяти на RTX картах - Gminer</span>
+<div itemprop="description"><p>Вы устали запускать команды в HiveOS для просмотра временных параметров памяти? Или, может быть, вы устали каждый раз запускать оболочку? Не волнуйтесь, я прикрыл вас, чтобы вы могли видеть их в пользовательском интерфейсе!</p></div>
+<meta itemprop="uploadDate" content="2022-03-27">
+<meta itemprop="duration" content="PT3M27S">
+<div class="youtube-player" data-id="lGx0taC5C0U"></div>
+</div>
 <h2 id="логи-журнал-работы-программы">Логи (журнал работы программы)</h2>
 <p>Чтобы сохранить журналы майнера в файл для последующего анализа:</p>
 <p class="notice--ya"><code class="language-plaintext highlighter-rouge">miner --algo ethash --server eth.2miners.com:2020 --user 0x5218597d48333d4a70cce91e810007b37e2937b5.worker1 --logfile c: \ log.txt</code></p>
