@@ -2,9 +2,45 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gminer.info/ru/download/3.17/</loc>
+    
+    <lastmod>2022-12-14T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gminer.info/ru/download/3.12/</loc>
+    
+    <lastmod>2022-10-30T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gminer.info/ru/download/3.10/</loc>
+    
+    <lastmod>2022-10-19T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gminer.info/ru/download/3.07/</loc>
+    
+    <lastmod>2022-10-09T00:00:00-05:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://gminer.info/ru/download/3.05/</loc>
     
-    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-29T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +49,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/lhr/</loc>
     
-    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-26T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -22,7 +58,7 @@
   <url>
     <loc>https://gminer.info/ru/download/3.03/</loc>
     
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-05T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -31,7 +67,7 @@
   <url>
     <loc>https://gminer.info/ru/download/3.02/</loc>
     
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-04T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -40,7 +76,7 @@
   <url>
     <loc>https://gminer.info/ru/download/3.01/</loc>
     
-    <lastmod>2022-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-20T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -49,7 +85,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.99/</loc>
     
-    <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-02T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -58,7 +94,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.98/</loc>
     
-    <lastmod>2022-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-29T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -67,7 +103,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.97/</loc>
     
-    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-28T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -76,7 +112,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.96/</loc>
     
-    <lastmod>2022-04-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-18T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -85,7 +121,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.95/</loc>
     
-    <lastmod>2022-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-16T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -94,7 +130,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.94/</loc>
     
-    <lastmod>2022-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-13T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -103,7 +139,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.93/</loc>
     
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-12T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -112,7 +148,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.92/</loc>
     
-    <lastmod>2022-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-11T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -121,7 +157,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.91/</loc>
     
-    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-01T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -130,7 +166,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.90/</loc>
     
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-24T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -139,7 +175,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.89/</loc>
     
-    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-16T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -148,7 +184,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.86/</loc>
     
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-12T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -157,7 +193,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.83/</loc>
     
-    <lastmod>2022-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-02T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -166,7 +202,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.82/</loc>
     
-    <lastmod>2022-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-26T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -175,7 +211,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.81/</loc>
     
-    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-24T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -184,7 +220,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.80/</loc>
     
-    <lastmod>2022-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-22T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -193,7 +229,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.79/</loc>
     
-    <lastmod>2022-02-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-19T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -202,7 +238,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.78/</loc>
     
-    <lastmod>2022-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-10T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -211,7 +247,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.76/</loc>
     
-    <lastmod>2022-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-09T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -220,7 +256,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.75/</loc>
     
-    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-21T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -229,7 +265,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/overclock/</loc>
     
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-30T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -238,7 +274,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.74/</loc>
     
-    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-09T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -247,7 +283,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.73/</loc>
     
-    <lastmod>2021-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-25T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -256,7 +292,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.72/</loc>
     
-    <lastmod>2021-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-18T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -265,7 +301,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.71/</loc>
     
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-09T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -274,7 +310,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.70/</loc>
     
-    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-04T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -283,7 +319,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.69/</loc>
     
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -292,7 +328,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.68/</loc>
     
-    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-18T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -301,7 +337,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.66/</loc>
     
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-26T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -310,7 +346,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.64/</loc>
     
-    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-06T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -319,7 +355,7 @@
   <url>
     <loc>https://gminer.info/ru/download/latest/</loc>
     
-    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-06T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -328,7 +364,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.63/</loc>
     
-    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-27T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -337,7 +373,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.62/</loc>
     
-    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-22T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -346,7 +382,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.61/</loc>
     
-    <lastmod>2021-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-20T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -355,7 +391,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.58/</loc>
     
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-30T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -364,7 +400,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/boston-06-30/</loc>
     
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-30T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -373,7 +409,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/grayscale-06-19/</loc>
     
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-19T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -382,7 +418,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.56/</loc>
     
-    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-11T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -391,7 +427,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.55/</loc>
     
-    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-03T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -400,7 +436,7 @@
   <url>
     <loc>https://gminer.info/ru/download/2.54/</loc>
     
-    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-03T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -409,7 +445,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/crypto-a-06-03/</loc>
     
-    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-03T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -418,7 +454,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/setup/</loc>
     
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-02T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -427,7 +463,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/changelog/</loc>
     
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-02T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -436,7 +472,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/arguments/</loc>
     
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-02T00:00:00-05:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -449,7 +485,7 @@
   <url>
     <loc>https://gminer.info/ru/about/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -461,7 +497,7 @@
   <url>
     <loc>https://gminer.info/ru/cookie/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -473,7 +509,7 @@
   <url>
     <loc>https://gminer.info/ru/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -497,7 +533,7 @@
   <url>
     <loc>https://gminer.info/ru/privacy/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -511,7 +547,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -523,7 +559,7 @@
   <url>
     <loc>https://gminer.info/ru/blog/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -535,7 +571,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -547,7 +583,7 @@
   <url>
     <loc>https://gminer.info/ru/download/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -559,7 +595,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page2/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -571,7 +607,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page3/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -583,7 +619,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page4/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -595,7 +631,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page5/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -607,7 +643,7 @@
   <url>
     <loc>https://gminer.info/ru/video/</loc>
       
-        <lastmod>2022-09-14T09:34:38+00:00</lastmod>
+        <lastmod>2022-12-14T11:51:23-05:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
