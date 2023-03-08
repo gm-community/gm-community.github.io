@@ -364,7 +364,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="Cómo usar GMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="9dVu9Cqi0j0"></div>
+			<div class="youtube-player" data-id="_0GuevTIXrM"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -382,7 +382,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </li>
 <li>Descomprima el paquete descargado y abra el archivo .bat en el editor de texto
 </li>
-<li>En la carpeta que contiene el minero, debe crear o editar un archivo con extensión .bat. Puede hacer esto en cualquier editor de texto (por ejemplo, Notepad o Notepad++). Cuando guarde el archivo, es importante elegir 'Todos los archivos' como tipo de archivo, no 'txt'. De lo contrario, tendrá .bat.txt al final del nombre del archivo y el minero no podrá abrir este archivo. Su archivo bat (digamos que se llama <span class="accent-txt">Ehereum-binance_pool.bat</span>) debe contener el siguiente texto (Paso 2):
+<li>En la carpeta que contiene el minero, debe crear o editar un archivo con extensión .bat. Puede hacer esto en cualquier editor de texto (por ejemplo, Notepad o Notepad++). Cuando guarde el archivo, es importante elegir 'Todos los archivos' como tipo de archivo, no 'txt'. De lo contrario, tendrá .bat.txt al final del nombre del archivo y el minero no podrá abrir este archivo. Su archivo bat (digamos que se llama <span class="accent-txt">mine_kaspa+zil.bat</span>) debe contener el siguiente texto (Paso 2):
 </li>
 </ul>
 					<p class="tim-attention">¡Atención! Por motivos de seguridad, es posible que Windows le impida abrir el archivo bat. En este caso, debe permitir que se abra en la ventana emergente.</p>
@@ -396,13 +396,16 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Ingrese el siguiente comando:</span>
 			 <div class="tim-row">
-			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class="accent-txt">username1</span></code>
-</pre>
+			 <p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user <span class="accent-txt">KASPA_WALLET</span> --zilserver us1-zil.shardpool.io:3333 --ziluser <span class="accent-txt">ZIL_WALLET</span>
+			  pause
+				</span></code>
+			</p>
+			Ejemplo:
+			<p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user kaspa:qrkqwe4kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna --zilserver us1-zil.shardpool.io:3333 --ziluser zil1x4j2tk87t650v3fym03adr9ph833g9ptrt6dn3
+			pause
+			</span>
+			</code>
+			</p>
            </div>
            </div>
          </li>
@@ -413,7 +416,7 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
 <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Configura el minero con tu configuración</span>
 <div class="tim-row">
-<span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - ingrese <span class="accent-txt">SU</span> dirección de billetera Ethereum o pool <span class="accent-txt">USERNAME</span> (así es como GMiner sabe dónde depositar su ETH)<br>
+<span class="accent-txt" itemprop="text">KASPA_WALLET</span> - ingrese <span class="accent-txt">SU</span> dirección de billetera Kaspa o pool <span class="accent-txt">USERNAME</span> (así es como GMiner sabe dónde depositar su KASPA)<br>
 La forma más fácil de obtener una dirección de billetera es registrarse en un intercambio de criptomonedas como <a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Huobi</a> o <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
 <span class="accent-txt">RIG_NAME</span>: puede elegir cualquier nombre (como prueba), pero no exagere: debe tener un máximo de 32 símbolos, contener solo letras y números (sin caracteres especiales como $ %»*;@). <span class="tim-blu">¡No olvide especificar la dirección de su billetera en todos los archivos!</span>
 		</div>
@@ -435,6 +438,16 @@ Si ha seguido los pasos anteriores, debería ver esta pantalla.
 <section class="hash">
 	<div class="tim-img">
 	</div>
+</section>
+<section class="">
+<div class="tim-vi2">
+<h3 itemprop="name"> ¿Dónde obtener la dirección de criptomoneda?</h3>
+<p> La forma más confiable de obtener direcciones de criptomonedas son las billeteras de hardware <a href="https://cutt.ly/p8HL6o6" rel="nofollow noopener" target="_blank">ledger</a> y <a href="https://cutt.ly/b8HZrxO" rel="nofollow noopener" target="_blank">Trezor</a>. Le permiten proteger los activos de cifrado de cualquier pérdida.
+</p>
+<p> La segunda forma de obtener la dirección son los intercambios de criptomonedas. El mas confiable es
+<a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Huobi</a> y <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
+</p>
+</div>
 </section>
 <div class="tim-down3">
  <section class="text-center white-text">
@@ -499,7 +512,7 @@ Gminer - Desbloqueo [LHR] - Guía de Instalación en Hive Os. Actualiza Gminer a
 	</div>
 </section>
 -->
-<p class="imgcen notice--success bold fsize"><a href="https://bit.ly/3rn50kC" rel="nofollow noopener" target="_blank">¡Crea una cuenta nueva!</a></p>
+<p class="imgcen notice--success bold fsize"><a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">¡Crea una cuenta nueva!</a></p>
 <section class="tim-comm">
 <div class="tim-vi2">		
 <div class="my-title"><a id="start">Templates</a></div>

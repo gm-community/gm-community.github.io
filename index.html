@@ -361,7 +361,7 @@ The development team never stops at what has been achieved and achieves the maxi
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="How to Use GMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="siNlGhgKFGE"></div>
+			<div class="youtube-player" data-id="55RkUkF7t9U"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -379,7 +379,7 @@ The development team never stops at what has been achieved and achieves the maxi
 </li>
 <li>Unzip downloaded package and open the .bat file in the text editor
 		</li>
-<li>In the folder that contains the miner, you should create or edit a file with .bat extension. You can do this in any text editor (for example, Notepad or Notepad++). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called <span class="accent-txt">Ehereum-binance_pool.bat</span>) should contain the following text (Step 2):
+<li>In the folder that contains the miner, you should create or edit a file with .bat extension. You can do this in any text editor (for example, Notepad or Notepad++). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called <span class="accent-txt">mine_kaspa+zil.bat</span>) should contain the following text (Step 2):
 		</li>
 </ul>
 					<p class="tim-attention">Attention! For security reasons, Windows may stop you from opening the bat file. In this case, you should permit it to open in the pop-up window.</p>
@@ -393,13 +393,16 @@ The development team never stops at what has been achieved and achieves the maxi
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Enter the following command:</span>
 			 <div class="tim-row">
-			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class="accent-txt">username1</span></code>
-</pre>
+			 <p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user <span class="accent-txt">KASPA_WALLET</span> --zilserver us1-zil.shardpool.io:3333 --ziluser <span class="accent-txt">ZIL_WALLET</span>
+			  pause
+				</span></code>
+			</p>
+			Example:
+			<p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user kaspa:qrkqwe4kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna --zilserver us1-zil.shardpool.io:3333 --ziluser zil1x4j2tk87t650v3fym03adr9ph833g9ptrt6dn3
+			pause
+			</span>
+			</code>
+			</p>
            </div>
            </div>
          </li>
@@ -410,9 +413,9 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Configure the miner with your settings</span>
 			 <div class="tim-row">
-<span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - enter <span class="accent-txt">YOUR</span> Ethereum wallet address or pool <span class="accent-txt">USERNAME</span> (this is how GMiner knows where to deposit your ETH).<br>
+<span class="accent-txt" itemprop="text">KASPA_WALLET</span> - enter <span class="accent-txt">YOUR</span> KASPA wallet address or pool <span class="accent-txt">USERNAME</span> (this is how GMiner knows where to deposit your coins).<br>
 			  The easiest way to get a wallet is to register on a cryptocurrency exchange like <a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Huobi</a> or <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
-		<span class="accent-txt">RIG_NAME</span> – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). <span class="tim-blu">Do not forget to specify your wallet address in all files!</span>
+		<span class="accent-txt">RIG_NAME</span> – optionally, you can choose any name for your farm (as a test). It should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). <span class="tim-blu">Do not forget to specify your wallet address in all files!</span>
 		</div>
            </div>
 		 </li>
@@ -432,6 +435,16 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
 <section class="hash">
 	<div class="tim-img">
 	</div>
+</section>
+<section class="">
+<div class="tim-vi2">	
+    <h3 itemprop="name">Where to get the cryptocurrency address?</h3>
+<p> The most reliable way to obtain cryptocurrency addresses are hardware wallets <a href="https://cutt.ly/p8HL6o6" rel="nofollow noopener" target="_blank">ledger </a> and <a href="https://cutt.ly/b8HZrxO" rel="nofollow noopener" target="_blank">Trezor</a>. They allow you to protect crypto assets from any loss.
+</p>
+<p> The second way to obtain the address is cryptocurrency exchanges. The most reliable is
+<a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Huobi</a> and <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
+</p>
+</div>
 </section>
 <div class="tim-down3">
  <section class="text-center white-text">
@@ -531,14 +544,17 @@ These types of cards when you open them up they are going to want more core volt
 </div>
 </div>
 </section>
-<p class="imgcen notice--success bold fsize"><a href="https://bit.ly/3rn50kC" rel="nofollow noopener" target="_blank">Create a free account!</a></p>
+<p class="imgcen notice--success bold fsize"><a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Create a free account!</a></p>
 <section class="tim-comm">
 <div class="tim-vi2">		
 <div class="my-title"><a id="start">Templates</a></div>
-Use templates (.bat files examples) to apply a predefined configuration to one or many miners in a single operation.
+<p>Use templates (.bat files examples) to apply a predefined configuration to one or many miners in a single operation.</p>
 </div>
-<div class="tim-vi2 imgcen">
-<p><i class="fas fa-hand-holding-usd"></i> If you would like to donate Hashing power - <b class="red break">42fEE38bfBDe1f50609e49741BC4AF165E7c8199</b></p>
+<div class="tim-vi2">
+<p><i class="fas fa-hand-holding-usd"></i> If you would like to donate Hashing power: <br>
+RVN: <b class="red break">RKzUGLFtdMUQgCstmufnWamA5RwN74yHU8</b></p>
+ETC:<p class="break">0x701C2963fa10C5A362a2C631221b3334F7018c85</p>
+FLUX:<p class="break">t1VhJnpszHc1Rhef8u3Ns7sbRTFsnaVHkuw</p>
 <p>Thanks!</p>
 </div>
 </section>

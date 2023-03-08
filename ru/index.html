@@ -366,7 +366,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
    <div class="row align-items-center tim-vi" itemscope="itemscope" itemtype="http://schema.org/HowTo">
 	<meta itemprop="name" content="Как использовать GMiner">
        <div class="ytb-how">
-			<div class="youtube-player" data-id="i1Fb-U-cxHs"></div>
+			<div class="youtube-player" data-id="35Z9CnPNYIs"></div>
        </div>
        <ol class="step pl-0">
          <li class="step-element pb-0">
@@ -384,7 +384,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 </li>
 <li>Разархивируйте загруженный архив и откройте файл с расширением.bat в текстовом редакторе.
 		</li>
-<li>В папке, содержащей майнер, вы должны создать или отредактировать файл с расширением .bat. Сделать это можно в любом текстовом редакторе (например, в Блокноте или Notepad ++). При сохранении файла важно выбрать в качестве типа файла «Все файлы», а не «txt». В противном случае у вас будет .bat.txt в конце имени файла, и майнер не сможет открыть этот файл. Ваш bat-файл (скажем, он называется <span class="accent-txt">Ehereum-binance_pool.bat</span>) должен содержать следующий текст (шаг 2):
+<li>В папке, содержащей майнер, вы должны создать или отредактировать файл с расширением .bat. Сделать это можно в любом текстовом редакторе (например, в Блокноте или Notepad ++). При сохранении файла важно выбрать в качестве типа файла «Все файлы», а не «txt». В противном случае у вас будет .bat.txt в конце имени файла, и майнер не сможет открыть этот файл. Ваш bat-файл (скажем, он называется <span class="accent-txt">mine_kaspa+zil.bat</span>) должен содержать следующий текст (шаг 2):
 		</li>
 </ul>
 					<p class="tim-attention">Внимание! По соображениям безопасности Windows может запретить вам открывать bat-файл. В этом случае вы должны разрешить ему открываться во всплывающем окне.</p>
@@ -396,15 +396,18 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <span class="number">2</span> 
            </div>
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
-              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Введите команду для подключения к Binance Pool:</span>
+              <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Введите команду для дуал майнинга KASPA+ZIL:</span>
 			 <div class="tim-row">
-			 <pre><code><span class="nev2 break" itemprop="text">setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class="accent-txt">username1</span></code>
-</pre>
+			 <p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user <span class="accent-txt">KASPA_WALLET</span> --zilserver us1-zil.shardpool.io:3333 --ziluser <span class="accent-txt">ZIL_WALLET</span>
+			  pause
+				</span></code>
+			</p>
+			Пример:
+			<p><code><span class="break" itemprop="text">miner.exe --algo kheavyhash --server pool.eu.woolypooly.com:3112 --user kaspa:qrkqwe4kzpd8hv3l4fatgzyzj4l3yygrs2yqx4nvz08lsgzdpqc8zt302prna --zilserver us1-zil.shardpool.io:3333 --ziluser zil1x4j2tk87t650v3fym03adr9ph833g9ptrt6dn3
+			pause
+			</span>
+			</code>
+			</p>
            </div>
            </div>
          </li>
@@ -415,8 +418,8 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
            <div class="step-excerpt" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
               <span class="font-weight-bold dark-grey-text mb-3" itemprop="name">Настройте майнер для своего кошелька</span>
 			 <div class="tim-row">
-<span class="accent-txt" itemprop="text">WALLET_ADDRESS</span> - введите <span class="accent-txt">ВАШ</span> адрес кошелька эфира ИЛИ логин от пула Binance - <span class="accent-txt">USERNAME</span> (команда после <code>-u</code> дает программе понять на какой адрес или аккаунт отправлять ETH). Самый простой способ получить адрес кошелька - это зарегистрироваться на такой бирже криптовалюты как <a href="https://cutt.ly/08FsTNF" rel="nofollow noopener" target="_blank">Huobi</a> или <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
-		<span class="accent-txt">RIG_NAME</span> – вы можете выбрать любое имя (как тест), но не преувеличивать: оно должно быть не более 32 символов максимума, содержит только буквы и цифры (без специальных символов, таких как $% »*; @). <span class="tim-blu">Не забывайте во всех файлах указывать адрес своего кошелька!</span>
+<span class="accent-txt" itemprop="text">KASPA_WALLET</span> - введите <span class="accent-txt">ВАШ</span> адрес кошелька KASPA ИЛИ логин от пула - <span class="accent-txt">USERNAME</span> (команда после <code>--user</code> дает программе понять на какой адрес или аккаунт отправлять ETH). Самый простой способ получить адрес кошелька - это зарегистрироваться на такой бирже криптовалюты как <a href="https://cutt.ly/08FsTNF" rel="nofollow noopener" target="_blank">Huobi</a> или <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
+		<span class="accent-txt">RIG_NAME</span> – опционально, вы можете выбрать любое имя дл вашей фермы (как тест).  Оно должно быть не более 32 символов, содержать только буквы и цифры (без специальных символов, таких как $% »*; @). <span class="tim-blu">Не забывайте во всех файлах указывать адрес своего кошелька!</span>
 		</div>
            </div>
 		 </li>
@@ -435,6 +438,16 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
 <section class="hash">
 	<div class="tim-img">
 	</div>
+</section>
+<section class="">
+<div class="tim-vi2">	
+   <h3 itemprop="name">Где взять адрес криптовалюты?</h3>
+<p>Самом надежным способом получения адреса криптовалюты являются аппаратные кошельки <a href="https://cutt.ly/p8HL6o6" rel="nofollow noopener" target="_blank">Ledger</a> и <a href="https://cutt.ly/b8HZrxO" rel="nofollow noopener" target="_blank">Trezor</a>. Они позволяют защитить криптоактивы от любых потерь.
+</p>
+<p>Вторым способом получения адреса являются криптовалютные биржи. Наиболее надежные - это 
+<a href="https://cutt.ly/08FsTNF" rel="nofollow noopener" target="_blank">Huobi</a> и <a href="https://cutt.ly/d8Fs6Jw" rel="nofollow noopener" target="_blank">Kuna</a>.
+</p>
+</div>
 </section>
 <div class="tim-down3">
  <section class="text-center white-text">
@@ -526,14 +539,17 @@ miner.exe --algo ethash --server ethash.poolbinance.com:8888 --user <span class=
 	</div>
 </section>
 -->
-<p class="imgcen notice--success bold fsize"><a href="https://bit.ly/3rn50kC" rel="nofollow noopener" target="_blank">Создайте бесплатный аккаунт!</a></p>
+<p class="imgcen notice--success bold fsize"><a href="https://cutt.ly/j8FsEPW" rel="nofollow noopener" target="_blank">Создайте бесплатный аккаунт!</a></p>
 <section class="tim-comm">
 <div class="tim-vi2">		
 <div class="my-title"><a id="start">Шаблоны</a></div>
 <p>Используйте шаблоны (примеры файлов .bat), чтобы применить предопределенную конфигурацию к одному или нескольким майнерам за одну операцию.</p>
 </div>
-<div class="tim-vi2 imgcen">
-<p><i class="fas fa-hand-holding-usd"></i> Если вы хотите поддержать нас донатом в виде хеширования - вот ETH адрес <b class="red break">5D1a10820eB3aa3e9Cc95cDF86Ca70ED97E1104f</b></p>
+<div class="tim-vi2">
+<p><i class="fas fa-hand-holding-usd"></i> Если вы хотите поддержать нас донатом в виде хеширования - вот адреса  <br>
+RVN: <b class="red break">RKzUGLFtdMUQgCstmufnWamA5RwN74yHU8</b></p>
+ETC:<p class="break">0x701C2963fa10C5A362a2C631221b3334F7018c85</p>
+FLUX:<p class="break">t1VhJnpszHc1Rhef8u3Ns7sbRTFsnaVHkuw</p>
 <p>Спасибо!</p>
 </div>
 </section>
