@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gminer.info/ru/download/3.31/</loc>
+    
+    <lastmod>2023-03-28T00:00:00-04:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://gminer.info/ru/download/3.30/</loc>
     
     <lastmod>2023-03-21T00:00:00-04:00</lastmod>
@@ -530,7 +539,7 @@
   <url>
     <loc>https://gminer.info/ru/about/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -542,7 +551,7 @@
   <url>
     <loc>https://gminer.info/ru/cookie/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -554,7 +563,7 @@
   <url>
     <loc>https://gminer.info/ru/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -578,7 +587,7 @@
   <url>
     <loc>https://gminer.info/ru/privacy/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -592,7 +601,7 @@
   <url>
     <loc>https://gminer.info/ru/articles/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -604,7 +613,7 @@
   <url>
     <loc>https://gminer.info/ru/blog/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -616,7 +625,7 @@
   <url>
     <loc>https://gminer.info/ru/documentation/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -628,7 +637,7 @@
   <url>
     <loc>https://gminer.info/ru/download/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -640,7 +649,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page2/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -652,7 +661,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page3/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -664,7 +673,7 @@
   <url>
     <loc>https://gminer.info/ru/download/page4/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -676,7 +685,19 @@
   <url>
     <loc>https://gminer.info/ru/download/page5/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
+       
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://gminer.info/ru/download/page6/</loc>
+      
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -688,7 +709,7 @@
   <url>
     <loc>https://gminer.info/ru/video/</loc>
       
-        <lastmod>2023-03-21T13:56:36-04:00</lastmod>
+        <lastmod>2023-03-28T06:47:08-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
